@@ -87,13 +87,13 @@ export function WhatWeRecycle() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-enviro-light text-enviro-green text-xs font-bold uppercase tracking-wider">
-            <span>Material Streams</span>
+            <span>Recycle More • Preserve Nature</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-enviro-navy tracking-tight">
             What We Recycle & Recover
           </h2>
           <p className="text-base text-enviro-gray">
-            We provide specialized, high-yield material recovery workflows across primary industrial and post-consumer waste streams.
+            Giving materials a second life through certified zero-landfill recycling — keeping land, rivers, and forests clean so nature can thrive.
           </p>
         </div>
 

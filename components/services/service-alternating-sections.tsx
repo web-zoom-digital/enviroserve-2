@@ -45,7 +45,7 @@ export function ServiceAlternatingSections({ sections }: ServiceAlternatingSecti
                       src={section.image}
                       alt={section.imageAlt}
                       fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      className="object-fit group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900/10 to-transparent" />
                   </div>

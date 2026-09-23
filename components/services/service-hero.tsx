@@ -97,7 +97,7 @@ export function ServiceHero({
                 src={heroImage}
                 alt={`${title} DSLR View`}
                 fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                className="object-fit group-hover:scale-105 transition-transform duration-500"
                 priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 via-transparent to-transparent" />

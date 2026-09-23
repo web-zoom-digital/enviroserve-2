@@ -16,10 +16,10 @@ export function LatestBlogs() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
           <div className="space-y-3 text-center md:text-left">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-enviro-light text-enviro-green text-xs font-bold uppercase tracking-wider">
-              <span>Insights & Updates</span>
+              <span>Recycle More • Eco Insights</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-enviro-navy tracking-tight">
-              Latest News & Regulatory Insights
+              Stories & Insights for a Greener Tomorrow
             </h2>
           </div>
 

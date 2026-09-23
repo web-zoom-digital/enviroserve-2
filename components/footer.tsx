@@ -22,8 +22,11 @@ export function Footer() {
                 />
               </div>
             </div>
+            <p className="text-emerald-400 text-xs font-extrabold uppercase tracking-wider">
+              Recycle More • Enjoy Nature For More
+            </p>
             <p className="text-slate-300 text-sm leading-relaxed">
-              EnviroServe Technologies Pvt. Ltd. is a pioneer in responsible waste management, e-waste recycling, lithium-ion battery recovery, and Extended Producer Responsibility (EPR) advisory.
+              EnviroServe Technologies Pvt. Ltd. is dedicated to protecting nature by making e-waste recycling, battery recovery, and CPCB EPR compliance accessible, human-centric, and sustainable for all.
             </p>
             <div className="flex items-center gap-2 text-xs text-emerald-400 font-semibold bg-emerald-950/60 border border-emerald-800/60 px-3 py-1.5 rounded-lg w-fit">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />

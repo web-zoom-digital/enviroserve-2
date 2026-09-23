@@ -106,4 +106,25 @@ export const blogsData: BlogPost[] = [
       "EnviroServe provides certified e-waste recycling and DoD-compliant physical data destruction, giving enterprise clients complete peace of mind and legally valid Form-6 recycling documentation."
     ],
   },
+  {
+    slug: "hazardous-waste-management-rules-handling-compliance-india",
+    title: "Hazardous Waste Management in India: Regulations, Safe Handling, and Compliance Solutions",
+    excerpt: "Managing hazardous industrial waste requires strict adherence to CPCB guidelines and Form-9 manifests. Discover how eco-friendly handling protects ecosystems and avoids regulatory liabilities.",
+    category: "Hazardous waste",
+    date: "May 15, 2026",
+    readingTime: "6 min read",
+    commentsCount: "No Comments",
+    image: "/images/services/WhatsApp-Image-2025-12-16-at-15.04.31-3.jpeg",
+    author: {
+      name: "Hazardous Compliance Desk",
+      role: "Environmental Health & Safety Experts",
+    },
+    tags: ["Hazardous Waste", "CPCB Guidelines", "Form-9 Manifest", "Industrial Safety", "Zero-Landfill"],
+    content: [
+      "Hazardous waste from industrial manufacturing, chemical processes, battery production, and electronic scrap requires strict, specialized handling to prevent toxic environmental contamination.",
+      "Under India's Hazardous and Other Wastes (Management and Transboundary Movement) Rules, industrial waste generators must maintain complete chain-of-custody documentation, including statutory Form-9 transport manifests and Form-6 destruction certificates.",
+      "Improper dumping or uncertified disposal of hazardous waste can lead to heavy penal actions from State Pollution Control Boards (SPCBs), severe soil and groundwater contamination, and workplace health hazards.",
+      "EnviroServe provides end-to-end hazardous waste management solutions—deploying GPS-monitored, UN-certified containment transport fleets and connecting enterprises directly with CPCB-authorized green processing and re-refining facilities."
+    ],
+  },
 ];

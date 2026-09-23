@@ -9,15 +9,15 @@ export function FinalCTA() {
         
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold uppercase tracking-wider border border-emerald-500/30">
           <ShieldCheck className="w-4 h-4 text-emerald-400" />
-          <span>CPCB Authorized Execution</span>
+          <span>Recycle More • Enjoy Nature For More</span>
         </div>
 
         <h2 className="text-3xl sm:text-5xl font-extrabold font-heading text-white max-w-3xl mx-auto leading-tight">
-          Ready to Build a Compliant & Sustainable Future?
+          Ready to Recycle More & Preserve Our Natural World?
         </h2>
 
         <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-          Partner with EnviroServe for scientific e-waste recycling, closed-loop lithium battery recovery, and single-window EPR advisory across India.
+          Join hands with EnviroServe for scientific e-waste recycling, lithium battery recovery, and turnkey CPCB EPR advisory — so we can safeguard nature together.
         </p>
 
         <div className="pt-4 flex flex-wrap items-center justify-center gap-4">

@@ -134,7 +134,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Eddy-current recovery of copper and aluminum",
           "Smelter-ready concentrates for domestic manufacturing",
         ],
-        image: "/images/hero/hero-services-dslr.jpg",
+        image: "/images/services/mechanicals-shredding-e-waste.png",
         imageAlt: "Industrial Material Recovery & Sorting Machinery",
       },
       {
@@ -219,7 +219,7 @@ export const servicesData: Record<string, ServiceDetail> = {
     shortTitle: "Li-Ion Battery Recycling",
     eyebrowCategory: "RECYCLING SOLUTIONS",
     category: "Recycling Solutions",
-    heroImage: "/images/categories/liion.png",
+    heroImage: "/images/hero/li-ion-battery-recycling-hero.png",
     heroDescription:
       "Advanced, fire-safe recycling for spent EV battery packs, energy storage systems (ESS), and portable lithium cells. Recovering battery-grade Lithium, Cobalt, Nickel, and Manganese for closed-loop manufacturing.",
     summary: {
@@ -244,7 +244,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Recovery of battery-grade Cobalt, Lithium, and Nickel",
           "Fulfillment of mandatory material recovery targets under Battery Rules 2022",
         ],
-        image: "/images/blog/battery-waste.webp",
+        image: "/images/services/Closed-Loop Lithium-Ion.png",
         imageAlt: "Lithium-Ion Battery Packs and Storage Recovery",
       },
       {
@@ -259,7 +259,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Automated deep discharging to zero electrical energy",
           "Thermal imaging monitoring during pack disassembly",
         ],
-        image: "/images/services/482114651Battery-removebg-preview.png",
+        image: "/images/services/diagnostic-testing-li-ion.png",
         imageAlt: "Lithium Battery Module and Safe Containment",
       },
       {
@@ -289,7 +289,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "CPCB portal credit upload matching mandatory recovery percentages",
           "Full audit verification for battery producers and importers",
         ],
-        image: "/images/categories/liion.png",
+        image: "/images/services/refining-supply-chain-ion.png",
         imageAlt: "Battery Waste Recovery Materials and Black Mass",
       },
     ],
@@ -777,7 +777,7 @@ export const servicesData: Record<string, ServiceDetail> = {
     shortTitle: "General Battery EPR",
     eyebrowCategory: "EPR COMPLIANCE",
     category: "EPR Compliance",
-    heroImage: "/images/categories/battery.webp",
+    heroImage: "/images/services/lead-acid-and-general.png",
     heroDescription:
       "Comprehensive compliance for conventional Lead-Acid, Nickel-Cadmium, UPS, and Primary Zinc batteries under the Battery Waste Management Rules. Turnkey CPCB portal registration, scrap channelization, and credit filing.",
     summary: {
@@ -802,7 +802,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Safe neutralization of spent sulfuric acid electrolyte",
           "Fulfillment of mandatory take-back percentages",
         ],
-        image: "/images/blog/battery-waste.webp",
+        image: "/images/services/lead-acid-battery.png",
         imageAlt: "Lead-Acid Battery Scrap and Industrial Battery Recovery",
       },
       {
@@ -817,7 +817,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Reconciliation for imported primary dry cell batteries",
           "Audit-proof document preparation for state pollution boards",
         ],
-        image: "/images/categories/battery.webp",
+        image: "/images/services/lead-mass-aduit.png",
         imageAlt: "Industrial Battery Storage and Scrap Inventory",
       },
       {
@@ -832,7 +832,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Zero-emission smelting backed by CPCB process approvals",
           "Non-duplicable digital recycling credits",
         ],
-        image: "/images/hero/hero-services-dslr.jpg",
+        image: "/images/services/green-smelter.png",
         imageAlt: "Secondary Lead Smelting and Processing Facility",
       },
       {
@@ -916,7 +916,7 @@ export const servicesData: Record<string, ServiceDetail> = {
     shortTitle: "Tyre Waste EPR",
     eyebrowCategory: "EPR COMPLIANCE",
     category: "EPR Compliance",
-    heroImage: "/images/categories/recyclables.jpg",
+    heroImage: "/images/hero/tyre-epr.png",
     heroDescription:
       "CPCB registration and recycling certificate fulfillment for automotive tyre producers, importers, and vehicle OEMs. Procuring verified Crumb Rubber Modifier (CRM) and Pyrolysis credits from authorized units.",
     summary: {
@@ -941,7 +941,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Channelization to crumb rubber and pyrolysis plants",
           "Mandatory target fulfillment under national hazardous rules",
         ],
-        image: "/images/services/WhatsApp-Image-2025-12-16-at-15.04.31.jpeg",
+        image: "/images/services/tyre-recycling.png",
         imageAlt: "Waste Tyre Scrap Stockpiles and Processing Infrastructure",
       },
       {
@@ -956,7 +956,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Mapping built-up vehicle imports (CBU/CKD units)",
           "ICEGATE import bill reconciliation",
         ],
-        image: "/images/categories/recyclables.jpg",
+        image: "/images/services/tyre-aduit-image.png",
         imageAlt: "Automotive Tyre Inventory and Shredding Assessment",
       },
       {
@@ -971,7 +971,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Recovered Carbon Black (rCB) credits from pyrolysis units",
           "Transparent mass-balance logs from registered processors",
         ],
-        image: "/images/hero/hero-services-dslr.jpg",
+        image: "/images/services/crumb-rubbing.png",
         imageAlt: "Tyre Shredding and Crumb Rubber Processing Machinery",
       },
       {
@@ -1194,7 +1194,7 @@ export const servicesData: Record<string, ServiceDetail> = {
     shortTitle: "Multi-Category EPR",
     eyebrowCategory: "EPR COMPLIANCE",
     category: "EPR Compliance",
-    heroImage: "/images/services/3775146-1024x683.jpg",
+    heroImage: "/images/hero/unified-multi-category-epr.png",
     heroDescription:
       "Consolidated, single-window compliance management across E-Waste, Plastic Packaging, Battery Waste, Waste Tyres, and Used Oil. Eliminating portal fragmentation with unified audit management.",
     summary: {
@@ -1249,7 +1249,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Uniform documentation quality and mass-balance logs",
           "Single point of vendor billing and legal accountability",
         ],
-        image: "/images/hero/hero-services-dslr.jpg",
+        image: "/images/services/consolidated-credit-sourcing.png",
         imageAlt: "Multi-Stream Recycling Facility and Material Operations",
       },
       {
@@ -1333,7 +1333,7 @@ export const servicesData: Record<string, ServiceDetail> = {
     shortTitle: "Annual EPR Filing",
     eyebrowCategory: "EPR COMPLIANCE",
     category: "EPR Compliance",
-    heroImage: "/images/services/360_F_319512685_63GEqom3zgl15eTV97QSrqL8i28D3XJ0.jpg",
+    heroImage: "/images/services/annual-epr-filling.png",
     heroDescription:
       "Error-free annual return preparation, ICEGATE import reconciliation, mass-balance audit verification, and digital CPCB filing support across all environmental compliance portals.",
     summary: {
@@ -1373,7 +1373,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Mass-balance verification of credit certificates",
           "Zero-discrepancy ledger reconciliation",
         ],
-        image: "/images/services/360_F_319512685_63GEqom3zgl15eTV97QSrqL8i28D3XJ0.jpg",
+        image: "/images/services/free-filling-audit.png",
         imageAlt: "Data Audit Desk and Import Ledger Reconciliation",
       },
       {
@@ -1666,7 +1666,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Temperature and vibration monitoring for spent EV packs",
           "Electronic Form-9 manifest verification upon arrival",
         ],
-        image: "/images/hero/hero-services-dslr.jpg",
+        image: "/images/services/gps-real-time.png",
         imageAlt: "GPS Fleet Tracking and Transit Manifest Management",
       },
       {
@@ -1681,7 +1681,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Immediate issuance of signed delivery confirmation receipts",
           "Full indemnification against transit environmental liabilities",
         ],
-        image: "/images/services/360_F_319512685_63GEqom3zgl15eTV97QSrqL8i28D3XJ0.jpg",
+        image: "/images/services/direct-delivery.png",
         imageAlt: "Weighbridge Mass Verification and Intake Log",
       },
     ],
@@ -1750,7 +1750,7 @@ export const servicesData: Record<string, ServiceDetail> = {
     shortTitle: "Asset Liquidation",
     eyebrowCategory: "ENTERPRISE SOLUTIONS",
     category: "Enterprise Solutions",
-    heroImage: "/images/services/360_F_319512685_63GEqom3zgl15eTV97QSrqL8i28D3XJ0.jpg",
+    heroImage: "/images/services/corporate-it.png",
     heroDescription:
       "Enterprise IT asset recovery, residual valuation, certified DoD 5220.22-M data sanitization, and eco-friendly de-manufacturing for surplus office laptops, servers, and telecom hardware.",
     summary: {
@@ -1775,7 +1775,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Rapid financial depreciation of stored IT equipment",
           "Need for formal asset retirement documentation",
         ],
-        image: "/images/services/360_F_319512685_63GEqom3zgl15eTV97QSrqL8i28D3XJ0.jpg",
+        image: "/images/services/risk-improper.png",
         imageAlt: "IT Asset Liquidation Storage and Server Rack Inspection",
       },
       {
@@ -1790,7 +1790,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Transparent buyback proposal for working IT assets",
           "Eco-friendly recycling channelization for non-working scrap",
         ],
-        image: "/images/blog/digital-visibility.webp",
+        image: "/images/services/comprehensive-aduit.png",
         imageAlt: "IT Hardware Evaluation and Specifications Testing",
       },
       {
@@ -1805,7 +1805,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "On-site mobile hard drive shredding and degaussing",
           "Zero data recovery possibility from sanitized storage media",
         ],
-        image: "/images/categories/ewaste.webp",
+        image: "/images/services/certified-on-site-data.png",
         imageAlt: "Hard Drive Shredding and Data Security Processing",
       },
       {
@@ -1929,7 +1929,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Thermal separation of EVA encapsulant film",
           "High-purity glass cullet isolation for glass manufacturing",
         ],
-        image: "/images/hero/hero-services-dslr.jpg",
+        image: "/images/services/frame-removal-solar-panel.png",
         imageAlt: "Automated Solar Module Frame Removal and Glass Cullet Recovery",
       },
       {
@@ -1944,7 +1944,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "High-purity silicon wafer granule isolation",
           "Copper ribbon channelization to primary smelters",
         ],
-        image: "/images/categories/ewaste.webp",
+        image: "/images/services/silicon-wafer-solar-panel.png",
         imageAlt: "Silicon Cell Granulation and Silver Reclamation",
       },
       {
@@ -1959,7 +1959,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Serial-matched Form-6 recycling certificates",
           "Full compliance documentation for ESG and sustainability audits",
         ],
-        image: "/images/services/360_F_319512685_63GEqom3zgl15eTV97QSrqL8i28D3XJ0.jpg",
+        image: "/images/services/solar-farm-decommissioning.png",
         imageAlt: "Solar Asset Audit Verification and Form-6 Certification",
       },
     ],

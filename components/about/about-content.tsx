@@ -272,7 +272,7 @@ export function AboutContent() {
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-900/80 backdrop-blur-md text-emerald-300 text-xs sm:text-sm font-bold uppercase tracking-widest border border-emerald-400/40 shadow-lg"
           >
             <Sparkles className="w-4 h-4 text-emerald-400" />
-            <span>ABOUT ENVIROSERVE</span>
+            <span>RECYCLE MORE • ENJOY NATURE FOR MORE</span>
           </motion.div>
 
           <motion.h1 
@@ -282,8 +282,8 @@ export function AboutContent() {
             className="text-4xl sm:text-6xl lg:text-7xl font-extrabold font-heading text-white tracking-tight leading-tight max-w-4xl mx-auto"
             style={{ textShadow: "0 4px 20px rgba(0, 0, 0, 0.9), 0 2px 6px rgba(0, 0, 0, 0.95)" }}
           >
-            Responsible Recycling. <br className="hidden sm:inline" />
-            Built for a Circular Future.
+            Recycling More for a Cleaner Planet. <br className="hidden sm:inline" />
+            Living in Harmony with Nature.
           </motion.h1>
 
           <motion.p 
@@ -293,7 +293,7 @@ export function AboutContent() {
             className="text-base sm:text-xl text-slate-100 max-w-3xl mx-auto leading-relaxed font-medium"
             style={{ textShadow: "0 2px 12px rgba(0, 0, 0, 0.9)" }}
           >
-            {companyInfo.description}
+            At EnviroServe, we believe that when we recycle more, we protect our lakes, forests, and clean air — allowing everyone to enjoy nature for more years to come.
           </motion.p>
         </div>
       </section>
@@ -333,6 +333,7 @@ export function AboutContent() {
               className="lg:col-span-6 space-y-6"
             >
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-enviro-light text-enviro-green text-xs font-bold uppercase tracking-wider">
+                <Sparkles className="w-4 h-4 text-enviro-green" />
                 <span>WHO WE ARE</span>
               </div>
 
@@ -375,7 +376,8 @@ export function AboutContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-14">
           
           <div className="text-center max-w-3xl mx-auto space-y-4">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-enviro-green text-xs font-bold uppercase tracking-wider">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-enviro-green text-xs font-bold uppercase tracking-wider shadow-xs">
+              <Layers className="w-4 h-4 text-enviro-green" />
               <span>OUR CORE CAPABILITIES</span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-enviro-navy font-heading tracking-tight">
@@ -450,6 +452,7 @@ export function AboutContent() {
           
           <div className="text-center max-w-3xl mx-auto space-y-4">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-enviro-light text-enviro-green text-xs font-bold uppercase tracking-wider">
+              <Wrench className="w-4 h-4 text-enviro-green" />
               <span>REAL-WORLD SOLUTIONS</span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-enviro-navy font-heading tracking-tight">
@@ -501,6 +504,7 @@ export function AboutContent() {
           
           <div className="text-center max-w-3xl mx-auto space-y-4">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-950 text-emerald-400 text-xs font-bold uppercase tracking-wider border border-emerald-800">
+              <BarChart3 className="w-4 h-4 text-emerald-400" />
               <span>OPERATIONAL METHODOLOGY</span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-white font-heading tracking-tight">
@@ -552,6 +556,7 @@ export function AboutContent() {
           
           <div className="text-center max-w-3xl mx-auto space-y-4">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-enviro-light text-enviro-green text-xs font-bold uppercase tracking-wider">
+              <Recycle className="w-4 h-4 text-enviro-green" />
               <span>SUSTAINABLE METHODOLOGY</span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-enviro-navy font-heading tracking-tight">
@@ -662,6 +667,7 @@ export function AboutContent() {
           
           <div className="text-center max-w-3xl mx-auto space-y-4">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-enviro-light text-enviro-green text-xs font-bold uppercase tracking-wider">
+              <Building2 className="w-4 h-4 text-enviro-green" />
               <span>KEY CLIENTELE SECTORS</span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-enviro-navy font-heading tracking-tight">
@@ -705,6 +711,7 @@ export function AboutContent() {
           
           <div className="text-center max-w-3xl mx-auto space-y-4">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-enviro-green text-xs font-bold uppercase tracking-wider">
+              <ShieldCheck className="w-4 h-4 text-enviro-green" />
               <span>OUR DISTINCT VALUE</span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-enviro-navy font-heading tracking-tight">

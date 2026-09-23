@@ -53,13 +53,13 @@ export function CoreServices() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-enviro-green text-xs font-bold uppercase tracking-wider">
-            <span>Enterprise Solutions</span>
+            <span>Recycle More • Enjoy Nature For More</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-enviro-navy tracking-tight">
-            Our Core Services
+            Our Core Recycling & Compliance Services
           </h2>
           <p className="text-base text-enviro-gray">
-            Proven corporate solutions helping businesses meet environmental standards, recover asset value, and manage end-of-life logistics.
+            Empowering businesses and communities to recycle more effectively while protecting our natural ecosystems and fulfilling CPCB requirements.
           </p>
         </div>
 

@@ -1,7 +1,7 @@
 export const companyInfo = {
   name: "EnviroServe Technologies Pvt. Ltd.",
   shortName: "EnviroServe",
-  tagline: "Responsible Recycling. Smarter EPR Compliance. A Cleaner Future.",
+  tagline: "Recycle More, Enjoy Nature For More — Responsible Recycling & CPCB EPR Compliance.",
   description:
     "EnviroServe Technologies Pvt. Ltd. is a leading Indian waste management and circular economy pioneer. We specialize in responsible e-waste recycling, lithium-ion battery recovery, comprehensive Extended Producer Responsibility (EPR) compliance, reverse logistics, and enterprise asset liquidation.",
   address: {

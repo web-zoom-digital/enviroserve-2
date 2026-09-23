@@ -30,7 +30,8 @@ import {
   Users,
   HelpCircle,
   BookOpen,
-  Phone
+  Phone,
+  Leaf
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -122,7 +123,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           
-          {/* Brand Logo */}
+          {/* Brand Logo & Tagline Badge */}
           <Link href="/" className="flex items-center gap-3 group relative z-50">
             <div className="relative w-40 sm:w-44 h-11 sm:h-12 flex items-center transition-transform group-hover:scale-[1.02]">
               <Image
@@ -132,6 +133,10 @@ export function Navbar() {
                 className="object-contain object-left"
                 priority
               />
+            </div>
+            <div className="hidden xl:flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-[11px] font-extrabold tracking-wide uppercase shadow-xs">
+              <Leaf className="w-3.5 h-3.5 text-emerald-600 animate-pulse" />
+              <span>Recycle More • Enjoy Nature</span>
             </div>
           </Link>
 
