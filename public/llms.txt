@@ -1,0 +1,31 @@
+# EnviroServe Technologies Pvt. Ltd. (https://enviroserve.in)
+
+> EnviroServe Technologies Pvt. Ltd. is a pioneer in Indian waste management, e-waste recycling, lithium-ion battery recovery, and Extended Producer Responsibility (EPR) advisory.
+
+## Core Capabilities & Services
+- **E-Waste Recycling**: Scientific de-manufacturing, CRT/PCB depollution, mechanical shredding, and precious metal extraction under zero-landfill protocols.
+- **Li-Ion Battery Recycling**: Closed-loop recovery for Electric Vehicle (EV) power packs, Energy Storage Systems (ESS), and portable lithium batteries, extracting high-purity Black Mass (Lithium, Cobalt, Nickel, Manganese).
+- **CPCB EPR Compliance**: Turnkey Extended Producer Responsibility registration, obligation target auditing, physical credit generation, and portal returns for Producers, Importers, and Brand Owners (PIBOs).
+- **EPR Categories Covered**: E-Waste, Plastic Packaging (Cat I, II, III, IV), Battery Waste (Rules 2022), Waste Tyres (Pyrolysis/Crumb Rubber), Used Oil (Re-refining), and Multi-Category Portfolios.
+- **PRO Services**: Producer Responsibility Organisation take-back systems, consumer awareness drives, and ground-level collection hubs.
+- **Reverse Logistics**: Pan-India hazardous-certified transport fleet equipped with GPS tracking, UN-certified packaging, and Form-9 manifest compliance.
+- **Asset Liquidation**: Enterprise IT asset disposal with DoD 5220.22-M & NIST 800-88 certified data sanitization and residual value recovery.
+
+## Corporate Contact
+- **Legal Entity**: EnviroServe Technologies Pvt. Ltd.
+- **Corporate Address**: #3675, Netaji Subhash Marg, Daryaganj, New Delhi - 110002, India
+- **Toll Free Phone**: 1800 309 9943
+- **Direct Phone**: 011-43510683
+- **Official Email**: info@enviroserve.in
+
+## Key URLs
+- Homepage: https://enviroserve.in/
+- About Us: https://enviroserve.in/about
+- How We Do It: https://enviroserve.in/how-we-do-it
+- Contact: https://enviroserve.in/contact
+- E-Waste Recycling: https://enviroserve.in/services/e-waste-recycling
+- Li-Ion Battery Recycling: https://enviroserve.in/services/li-ion-battery-recycling
+- E-Waste EPR: https://enviroserve.in/services/e-waste-epr
+- Li-Ion Battery EPR: https://enviroserve.in/services/li-ion-battery-epr
+- Plastic Waste EPR: https://enviroserve.in/services/plastic-waste-epr
+- Blog: https://enviroserve.in/blog
