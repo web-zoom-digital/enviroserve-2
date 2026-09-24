@@ -134,10 +134,6 @@ export function Navbar() {
                 priority
               />
             </div>
-            <div className="hidden xl:flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-[11px] font-extrabold tracking-wide uppercase shadow-xs">
-              <Leaf className="w-3.5 h-3.5 text-emerald-600 animate-pulse" />
-              <span>Recycle More • Enjoy Nature</span>
-            </div>
           </Link>
 
           {/* Desktop Navigation Links */}

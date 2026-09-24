@@ -158,6 +158,17 @@ export function Footer() {
           <div>
             © 2026 {companyInfo.name} All Rights Reserved.
           </div>
+          <div>
+            Designed, Developed &amp; SEO Managed by{" "}
+            <a
+              href="https://www.zoomdigital.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-emerald-400 font-semibold hover:underline transition-colors"
+            >
+              Zoom Digital
+            </a>
+          </div>
           <div className="flex items-center gap-6">
             <span className="hover:text-slate-200 transition-colors cursor-pointer">Privacy Policy</span>
             <span className="hover:text-slate-200 transition-colors cursor-pointer">Terms & Conditions</span>
