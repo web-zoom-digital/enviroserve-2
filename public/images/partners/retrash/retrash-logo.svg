@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <!-- Logo Icon: Eco Leaf + Cycle Circle -->
+  <g transform="translate(10, 10)">
+    <!-- Background Circle Accent -->
+    <rect width="60" height="60" rx="16" fill="url(#retrash_grad)" />
+    <!-- Leaf / Recycling Symbol -->
+    <path d="M30 14C20 14 16 24 16 34C16 44 26 46 30 46C34 46 44 44 44 34C44 24 40 14 30 14Z" fill="#0CEE0B" opacity="0.9" />
+    <path d="M30 18C23 18 20 25 20 33C26 33 32 30 35 24C33 31 37 38 40 40C40 33 37 18 30 18Z" fill="#FFFFFF" />
+    <!-- Chasing arrows micro-detail -->
+    <path d="M22 42L26 45L23 48" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <text x="82" y="44" font-family="'Poppins', 'Inter', system-ui, sans-serif" font-weight="800" font-size="30" fill="#0F172A" letter-spacing="-0.5">
+    Re<tspan fill="#079819">Trash</tspan>
+  </text>
+  <text x="83" y="60" font-family="'Inter', system-ui, sans-serif" font-weight="600" font-size="10" fill="#64748B" letter-spacing="1.5">
+    COLLECTING PARTNER
+  </text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="retrash_grad" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+</svg>

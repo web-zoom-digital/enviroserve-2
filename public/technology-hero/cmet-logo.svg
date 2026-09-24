@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" width="300" height="100">
+  <g transform="translate(10, 10)">
+    <!-- C-MET Emblem / Atom-Circuit Motif -->
+    <rect x="8" y="8" width="64" height="64" rx="16" fill="#0284C7" />
+    <circle cx="40" cy="40" r="16" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="6,3" />
+    <circle cx="40" cy="40" r="8" fill="#F59E0B" />
+    <path d="M 40 12 L 40 24 M 40 56 L 40 68 M 12 40 L 24 40 M 56 40 L 68 40" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  </g>
+  <!-- Text C-MET -->
+  <text x="96" y="48" font-family="'Inter', 'Outfit', sans-serif" font-weight="900" font-size="30" fill="#0F172A" letter-spacing="1">C-MET</text>
+  <text x="96" y="66" font-family="'Inter', 'Outfit', sans-serif" font-weight="700" font-size="12" fill="#0284C7" letter-spacing="0.5">HYDERABAD</text>
+  <text x="96" y="80" font-family="'Inter', 'Outfit', sans-serif" font-weight="500" font-size="10" fill="#64748B">Under MeitY, Govt. of India</text>
+</svg>

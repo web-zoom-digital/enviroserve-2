@@ -14,6 +14,7 @@ import { ContactForm } from "@/components/contact-form";
 import { companyInfo } from "@/data/company";
 import { MapPin, PhoneCall, Mail } from "lucide-react";
 import { ScrollReveal } from "@/components/scroll-reveal";
+import { TechnologyPartners } from "@/components/technology-partners";
 
 export default function HomePage() {
   return (
@@ -25,7 +26,10 @@ export default function HomePage() {
       <ScrollReveal variant="fadeUp" delay={0.05}>
         <WhatWeRecycle />
       </ScrollReveal>
-
+      {/* 2.5 Technology Partners */}
+      <ScrollReveal variant="fadeUp" delay={0.05}>
+        <TechnologyPartners />
+      </ScrollReveal>
       {/* 3. Our Core Services */}
       <ScrollReveal variant="fadeUp" delay={0.05}>
         <CoreServices />

@@ -11,6 +11,8 @@
 - **Reverse Logistics**: Pan-India hazardous-certified transport fleet equipped with GPS tracking, UN-certified packaging, and Form-9 manifest compliance.
 - **Asset Liquidation**: Enterprise IT asset disposal with DoD 5220.22-M & NIST 800-88 certified data sanitization and residual value recovery.
 
+- **Collecting Partner (ReTrash)**: Organized doorstep waste & scrap collection network partner providing app-driven pickup scheduling (Google Play) for households, commercial offices, and institutions to channel dry recyclables into EnviroServe's recovery facilities.
+
 ## Corporate Contact
 - **Legal Entity**: EnviroServe Technologies Pvt. Ltd.
 - **Corporate Address**: #3675, Netaji Subhash Marg, Daryaganj, New Delhi - 110002, India
@@ -21,6 +23,7 @@
 ## Key URLs
 - Homepage: https://enviroserve.in/
 - About Us: https://enviroserve.in/about
+- Collecting Partner (ReTrash): https://enviroserve.in/collecting-partner
 - How We Do It: https://enviroserve.in/how-we-do-it
 - Contact: https://enviroserve.in/contact
 - E-Waste Recycling: https://enviroserve.in/services/e-waste-recycling

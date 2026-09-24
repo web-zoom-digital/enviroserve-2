@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" width="300" height="100">
+  <g transform="translate(10, 10)">
+    <!-- CSIR Emblem / Gear Sun Motif -->
+    <circle cx="40" cy="40" r="32" fill="#003366" />
+    <circle cx="40" cy="40" r="22" fill="#ffffff" />
+    <circle cx="40" cy="40" r="14" fill="#003366" />
+    <!-- Gear Teeth -->
+    <path d="M 40 4 L 40 12 M 40 68 L 40 76 M 4 40 L 12 40 M 68 40 L 76 40 M 15 15 L 21 21 M 59 59 L 65 65 M 15 65 L 21 59 M 59 21 L 65 15" stroke="#003366" stroke-width="5" stroke-linecap="round" />
+    <circle cx="40" cy="40" r="6" fill="#00A859" />
+  </g>
+  <!-- Text CSIR -->
+  <text x="100" y="52" font-family="'Inter', 'Outfit', sans-serif" font-weight="900" font-size="34" fill="#003366" letter-spacing="2">CSIR</text>
+  <text x="100" y="70" font-family="'Inter', 'Outfit', sans-serif" font-weight="600" font-size="11" fill="#475569" letter-spacing="0.5">INDIA • PCB RECYCLING TECH</text>
+</svg>

@@ -80,10 +80,10 @@ export function Hero() {
             className="space-y-4"
           >
             {/* Eyebrow Pill */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-900/80 backdrop-blur-md text-emerald-300 border border-emerald-400/40 text-xs sm:text-sm font-bold tracking-wide uppercase shadow-lg">
+            {/* <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-900/80 backdrop-blur-md text-emerald-300 border border-emerald-400/40 text-xs sm:text-sm font-bold tracking-wide uppercase shadow-lg">
               <Leaf className="w-4 h-4 text-emerald-400" />
               <span>{slide.eyebrow}</span>
-            </div>
+            </div> */}
 
             {/* H1 Title with crisp text shadow for readability over bright image */}
             <h1 

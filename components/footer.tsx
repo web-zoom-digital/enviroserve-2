@@ -132,7 +132,17 @@ export function Footer() {
             <div className="space-y-3 text-sm text-slate-300">
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
-                <span>{companyInfo.address.full}</span>
+                <div>
+                  <div className="text-xs text-emerald-300 font-bold uppercase tracking-wide mb-0.5">Registered Office</div>
+                  <span>{companyInfo.officeAddress.full}</span>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
+                <div>
+                  <div className="text-xs text-amber-300 font-bold uppercase tracking-wide mb-0.5">Factory Address</div>
+                  <span>{companyInfo.factoryAddress.full}</span>
+                </div>
               </div>
               <div className="flex items-center gap-3">
                 <PhoneCall className="w-5 h-5 text-emerald-400 shrink-0" />

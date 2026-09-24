@@ -132,6 +132,8 @@ export function Navbar() {
                 fill
                 className="object-contain object-left"
                 priority
+                sizes="(max-width: 640px) 160px, 176px"
+                quality={90}
               />
             </div>
           </Link>
@@ -145,7 +147,7 @@ export function Navbar() {
                 pathname === "/" ? "text-emerald-700 font-bold" : "text-slate-700"
               )}
             >
-              Home
+              <span>Home</span>
               {pathname === "/" && (
                 <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-emerald-600 rounded-full animate-in fade-in" />
               )}
@@ -158,7 +160,7 @@ export function Navbar() {
                 pathname === "/about" ? "text-emerald-700 font-bold" : "text-slate-700"
               )}
             >
-              About Us
+              <span>About Us</span>
               {pathname === "/about" && (
                 <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-emerald-600 rounded-full animate-in fade-in" />
               )}
@@ -266,8 +268,22 @@ export function Navbar() {
                 pathname === "/how-we-do-it" ? "text-emerald-700 font-bold" : "text-slate-700"
               )}
             >
-              How We Do It
+              <span>How We Do It</span>
               {pathname === "/how-we-do-it" && (
+                <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-emerald-600 rounded-full animate-in fade-in" />
+              )}
+            </Link>
+
+            <Link
+              href="/collecting-partner"
+              className={cn(
+                "relative py-2 text-sm font-semibold transition-colors duration-200 hover:text-emerald-600 flex items-center gap-1.5",
+                pathname === "/collecting-partner" ? "text-emerald-700 font-bold" : "text-slate-700"
+              )}
+            >
+              <span>Collecting Partner</span>
+              
+              {pathname === "/collecting-partner" && (
                 <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-emerald-600 rounded-full animate-in fade-in" />
               )}
             </Link>
@@ -279,7 +295,7 @@ export function Navbar() {
                 pathname.startsWith("/blog") ? "text-emerald-700 font-bold" : "text-slate-700"
               )}
             >
-              Blog
+              <span>Blog</span>
               {pathname.startsWith("/blog") && (
                 <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-emerald-600 rounded-full animate-in fade-in" />
               )}
@@ -292,7 +308,7 @@ export function Navbar() {
                 pathname === "/contact" ? "text-emerald-700 font-bold" : "text-slate-700"
               )}
             >
-              Contact
+              <span>Contact</span>
               {pathname === "/contact" && (
                 <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-emerald-600 rounded-full animate-in fade-in" />
               )}
@@ -473,6 +489,25 @@ export function Navbar() {
                   <HelpCircle className="w-4 h-4" />
                 </div>
                 <span>How We Do It</span>
+              </Link>
+
+              {/* Collecting Partner Link */}
+              <Link
+                href="/collecting-partner"
+                className={cn(
+                  "flex items-center gap-3 p-3 rounded-2xl font-bold text-base transition-all",
+                  pathname === "/collecting-partner" 
+                    ? "bg-emerald-50 text-emerald-700 border border-emerald-200/80 shadow-sm" 
+                    : "text-slate-800 hover:bg-slate-50"
+                )}
+              >
+                <div className={cn("p-2 rounded-xl", pathname === "/collecting-partner" ? "bg-emerald-600 text-white" : "bg-slate-100 text-slate-600")}>
+                  <Truck className="w-4 h-4" />
+                </div>
+                <div className="flex items-center justify-between flex-1">
+                  <span>Collecting Partner</span>
+                 
+                </div>
               </Link>
 
               {/* Blog Link */}

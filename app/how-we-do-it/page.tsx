@@ -129,12 +129,7 @@ export default function HowWeDoItPage() {
 
         {/* Hero Content Container */}
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-5 pt-12">
-          <div
-            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-900/80 backdrop-blur-md text-emerald-300 text-xs sm:text-sm font-bold uppercase tracking-widest border border-emerald-400/40 shadow-lg animate-in fade-in duration-500"
-          >
-            <Sparkles className="w-4 h-4 text-emerald-400" />
-            <span>OPERATIONAL METHODOLOGY</span>
-          </div>
+          
 
           <h1 
             className="text-4xl sm:text-6xl lg:text-7xl font-extrabold font-heading text-white tracking-tight leading-tight max-w-4xl mx-auto animate-in slide-in-from-bottom-3 duration-500"

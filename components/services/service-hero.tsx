@@ -50,10 +50,7 @@ export function ServiceHero({
             className="lg:col-span-7 space-y-6 text-center lg:text-left"
           >
             {/* Category Eyebrow Pill */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-enviro-light text-enviro-green border border-emerald-200 text-xs font-bold uppercase tracking-wider shadow-sm">
-              <ShieldCheck className="w-4 h-4 text-enviro-accent" />
-              <span>{eyebrowCategory}</span>
-            </div>
+            
 
             {/* H1 Title */}
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold font-heading text-enviro-navy tracking-tight leading-tight">

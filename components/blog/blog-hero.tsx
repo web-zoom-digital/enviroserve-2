@@ -21,7 +21,7 @@ export function BlogHero() {
 
       {/* Hero Content Container */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-5 pt-12">
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: -15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -29,7 +29,7 @@ export function BlogHero() {
         >
           <Sparkles className="w-4 h-4 text-emerald-400" />
           <span>BLOG & INDUSTRY INSIGHTS</span>
-        </motion.div>
+        </motion.div> */}
 
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
