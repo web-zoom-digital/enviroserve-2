@@ -94,9 +94,7 @@ export default function ContactPage() {
                       <a href={`mailto:${companyInfo.contact.email}`} className="font-bold text-enviro-navy hover:text-enviro-green transition-colors text-base block mt-0.5">
                         {companyInfo.contact.email}
                       </a>
-                      <a href={`mailto:${companyInfo.contact.altEmail}`} className="text-xs text-slate-500 hover:text-enviro-green transition-colors block">
-                        {companyInfo.contact.altEmail}
-                      </a>
+                     
                     </div>
                   </div>
 
@@ -109,7 +107,6 @@ export default function ContactPage() {
                       <a href={`tel:${companyInfo.contact.tollFree}`} className="font-bold text-enviro-navy hover:text-enviro-green transition-colors text-base block mt-0.5">
                         Toll Free: {companyInfo.contact.tollFree}
                       </a>
-                      <div className="text-xs text-slate-500">Landline: {companyInfo.contact.phone}</div>
                     </div>
                   </div>
 
