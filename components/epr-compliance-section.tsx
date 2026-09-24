@@ -26,15 +26,7 @@ const eprModules = [
     icon: Cpu,
     colorStyle: "bg-emerald-500/10 text-emerald-600 border-emerald-200 group-hover:bg-emerald-600 group-hover:text-white",
   },
-  {
-    title: "Plastic Waste EPR",
-    category: "Packaging Categories I-IV",
-    description: "Cat I, II, III & IV plastic packaging registration, credit sourcing, and annual return filing.",
-    href: "/services/plastic-waste-epr",
-    image: "/images/categories/plastic.webp",
-    icon: Recycle,
-    colorStyle: "bg-green-500/10 text-green-600 border-green-200 group-hover:bg-green-600 group-hover:text-white",
-  },
+ 
   {
     title: "Battery Waste EPR",
     category: "BWM Rules 2022",
@@ -44,15 +36,7 @@ const eprModules = [
     icon: BatteryCharging,
     colorStyle: "bg-amber-500/10 text-amber-600 border-amber-200 group-hover:bg-amber-500 group-hover:text-white",
   },
-  {
-    title: "Tyre Waste EPR",
-    category: "Automotive Tyres",
-    description: "CPCB credit procurement from authorized crumb rubber and pyrolysis processing facilities.",
-    href: "/services/tyre-waste-epr",
-    image: "/images/services/WhatsApp-Image-2025-12-16-at-15.04.31.jpeg",
-    icon: Disc,
-    colorStyle: "bg-slate-500/10 text-slate-700 border-slate-200 group-hover:bg-slate-800 group-hover:text-white",
-  },
+  
   {
     title: "Used Oil EPR",
     category: "Base Oil & Lubricants",
@@ -158,35 +142,7 @@ export function EPRComplianceSection() {
           })}
 
           {/* CTA Box filling 8th grid position */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.5 }}
-            className="bg-gradient-to-br from-enviro-navy to-emerald-950 p-6 rounded-2xl text-white flex flex-col justify-between border border-emerald-800"
-          >
-            <div className="space-y-3">
-              <div className="w-12 h-12 rounded-xl bg-emerald-500/20 border border-emerald-400/30 flex items-center justify-center text-emerald-400">
-                <PhoneCall className="w-6 h-6" />
-              </div>
-              <h3 className="text-xl font-bold font-heading text-white">
-                Need Help Estimating Your Obligations?
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                Speak directly with our regulatory specialists for a free obligation calculation and audit plan.
-              </p>
-            </div>
-
-            <div className="pt-6">
-              <Link
-                href="/contact"
-                className="w-full inline-flex items-center justify-center gap-2 bg-enviro-accent hover:bg-emerald-500 text-enviro-navy font-bold text-sm py-3 px-4 rounded-xl transition-all shadow-md hover:scale-[1.02]"
-              >
-                <span>Talk to an EPR Expert</span>
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-          </motion.div>
+          
         </div>
 
       </div>

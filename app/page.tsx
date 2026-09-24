@@ -15,6 +15,7 @@ import { companyInfo } from "@/data/company";
 import { MapPin, PhoneCall, Mail } from "lucide-react";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { TechnologyPartners } from "@/components/technology-partners";
+import { CollectingPartnerSection } from "@/components/collecting-partner-section";
 
 export default function HomePage() {
   return (
@@ -29,6 +30,10 @@ export default function HomePage() {
       {/* 2.5 Technology Partners */}
       <ScrollReveal variant="fadeUp" delay={0.05}>
         <TechnologyPartners />
+      </ScrollReveal>
+      {/* 2.8 Collecting Partner — ReTrash */}
+      <ScrollReveal variant="fadeUp" delay={0.05}>
+        <CollectingPartnerSection />
       </ScrollReveal>
       {/* 3. Our Core Services */}
       <ScrollReveal variant="fadeUp" delay={0.05}>
@@ -86,14 +91,28 @@ export default function HomePage() {
                 </div>
 
                 <div className="space-y-6">
+                  {/* 1. Registered Office Address */}
                   <div className="flex items-start gap-4 p-4 rounded-2xl bg-white border border-slate-200/80 shadow-sm">
-                    <div className="p-3 rounded-xl bg-enviro-light text-enviro-green shrink-0">
+                    <div className="p-3 rounded-xl bg-emerald-50 text-emerald-600 shrink-0">
                       <MapPin className="w-5 h-5" />
                     </div>
                     <div>
-                      <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">Corporate Office</div>
-                      <div className="text-sm font-semibold text-enviro-navy mt-0.5 leading-snug">
-                        {companyInfo.address.full}
+                      <div className="text-xs font-extrabold text-emerald-600 uppercase tracking-wider">REGISTERED OFFICE</div>
+                      <div className="text-sm font-semibold text-enviro-navy mt-0.5 leading-relaxed">
+                        {companyInfo.officeAddress.full}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* 2. Recycle Plant Address */}
+                  <div className="flex items-start gap-4 p-4 rounded-2xl bg-white border border-slate-200/80 shadow-sm">
+                    <div className="p-3 rounded-xl bg-amber-50 text-amber-500 shrink-0">
+                      <MapPin className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <div className="text-xs font-extrabold text-amber-500 uppercase tracking-wider">RECYCLE PLANT</div>
+                      <div className="text-sm font-semibold text-enviro-navy mt-0.5 leading-relaxed">
+                        {companyInfo.factoryAddress.full}
                       </div>
                     </div>
                   </div>

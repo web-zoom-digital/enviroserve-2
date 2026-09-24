@@ -140,7 +140,7 @@ export function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
                 <div>
-                  <div className="text-xs text-amber-300 font-bold uppercase tracking-wide mb-0.5">Factory Address</div>
+                  <div className="text-xs text-amber-300 font-bold uppercase tracking-wide mb-0.5">Recycle Plant</div>
                   <span>{companyInfo.factoryAddress.full}</span>
                 </div>
               </div>

@@ -2,18 +2,18 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { 
-  Truck, 
-  Smartphone, 
-  ShieldCheck, 
-  Recycle, 
-  ArrowRight, 
-  Download, 
-  CheckCircle2, 
-  Calendar, 
-  Scale, 
-  Layers, 
-  FileText, 
+import {
+  Truck,
+  Smartphone,
+  ShieldCheck,
+  Recycle,
+  ArrowRight,
+  Download,
+  CheckCircle2,
+  Calendar,
+  Scale,
+  Layers,
+  FileText,
   ExternalLink,
   ChevronRight,
   HelpCircle,
@@ -168,24 +168,39 @@ export default function CollectingPartnerPage() {
           {/* About ReTrash Section */}
           <section className="mt-16 bg-white rounded-3xl p-8 sm:p-12 shadow-sm border border-slate-200">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-              
+
               {/* Logo & Card (4 cols) */}
-              <div className="lg:col-span-4 bg-gradient-to-br from-slate-900 to-slate-800 p-8 rounded-2xl text-center border border-slate-700 flex flex-col items-center justify-center space-y-4">
-                <div className="bg-white p-4 rounded-xl shadow-md w-full max-w-[240px]">
+              <div className="lg:col-span-4 flex flex-col items-center justify-center space-y-4 max-w-[320px] mx-auto w-full">
+                {/* ReTrash Image Graphic Card */}
+                <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-sm border border-slate-200/90 bg-white">
                   <Image
-                    src="/images/services/retrash-logo.jpeg"
-                    alt="ReTrash collecting partner logo"
-                    width={200}
-                    height={80}
-                    className="w-full h-auto object-contain mx-auto"
+                    src="/images/services/retrash.webp"
+                    alt="ReTrash — Collection Network Partner"
+                    fill
+                    className="object-contain p-2"
                   />
                 </div>
-                <div className="text-xs text-slate-300 font-semibold uppercase tracking-widest pt-2">
-                  Collection Network Partner
-                </div>
-                <div className="text-xs text-lime-400 font-medium italic">
-                  &ldquo;Cleaning the Earth, One Pickup at a Time.&rdquo;
-                </div>
+
+                {/* Google Play Store Badge - Full width matching image card */}
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.retrash.partner&hl=en_IN"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full block transition-transform duration-200 hover:scale-[1.02] active:scale-95 shadow-md rounded-xl"
+                >
+                  <div className="bg-black text-white px-5 py-3 rounded-xl border border-slate-800 flex items-center justify-center gap-3.5 w-full">
+                    <svg className="w-6 h-6 shrink-0" viewBox="0 0 24 24">
+                      <path fill="#EA4335" d="M3.6 2.3A1.9 1.9 0 0 0 3 3.7v16.6a1.9 1.9 0 0 0 .6 1.4l.1.1 9.3-9.3v-.2L3.7 2.2l-.1.1z" />
+                      <path fill="#FBBC04" d="M16.1 15.5l-3.1-3.1v-.2l3.1-3.1.1.1 3.7 2.1c1.1.6 1.1 1.6 0 2.2l-3.8 2.0z" />
+                      <path fill="#4285F4" d="M16.2 15.4L13 12.3 3.6 21.7c.4.4.9.4 1.6 0l11-6.3" />
+                      <path fill="#34A853" d="M16.2 8.6L5.2 2.3c-.7-.4-1.2-.4-1.6 0l9.4 9.4 3.2-3.1z" />
+                    </svg>
+                    <div className="text-left">
+                      <div className="text-[9px] uppercase tracking-wider font-semibold text-slate-300">GET IT ON</div>
+                      <div className="text-sm font-bold leading-tight font-sans">Google Play</div>
+                    </div>
+                  </div>
+                </a>
               </div>
 
               {/* Description & Value Proposition (8 cols) */}
@@ -193,7 +208,7 @@ export default function CollectingPartnerPage() {
                 <div className="inline-block px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold uppercase tracking-wider">
                   Smarter Collection Network
                 </div>
-                
+
                 <h2 className="text-2xl sm:text-3xl font-bold font-heading text-slate-900 tracking-tight">
                   Bridging Waste Generators with Authorized Recycling
                 </h2>
@@ -276,7 +291,7 @@ export default function CollectingPartnerPage() {
 
           {/* How Collection Process Works Timeline */}
           <section id="how-it-works" className="mt-20 bg-slate-900 rounded-3xl p-8 sm:p-12 text-white border border-slate-800 space-y-12">
-            
+
             <div className="text-center max-w-3xl mx-auto space-y-3">
               <div className="inline-block px-3.5 py-1 rounded-full bg-lime-400/20 text-lime-300 border border-lime-400/30 text-xs font-bold uppercase tracking-wider">
                 Step-by-Step Workflow
@@ -316,7 +331,7 @@ export default function CollectingPartnerPage() {
             </div>
 
           </section>
-        
+
           {/* From Collection to Recycling Ecosystem Journey */}
           <section className="mt-20 bg-white rounded-3xl p-8 sm:p-12 shadow-sm border border-slate-200 space-y-8">
             <div className="text-center max-w-3xl mx-auto space-y-3">

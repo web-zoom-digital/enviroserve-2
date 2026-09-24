@@ -105,33 +105,32 @@ export default function ContactPage() {
                     </div>
                   </div>
 
+                  {/* Registered Office */}
                   <div className="flex items-start gap-4">
-                    <div className="p-3 rounded-2xl bg-enviro-light text-enviro-green shrink-0">
+                    <div className="p-3 rounded-2xl bg-emerald-50 text-emerald-600 shrink-0">
                       <MapPin className="w-5 h-5" />
                     </div>
                     <div>
-                      <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">Office Address</div>
-                      <div className="font-semibold text-enviro-navy leading-snug mt-0.5">
-                        {companyInfo.address.full}
+                      <div className="text-xs font-extrabold text-emerald-600 uppercase tracking-wider">REGISTERED OFFICE</div>
+                      <div className="font-semibold text-enviro-navy leading-relaxed mt-0.5">
+                        {companyInfo.officeAddress.full}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Recycle Plant */}
+                  <div className="flex items-start gap-4">
+                    <div className="p-3 rounded-2xl bg-amber-50 text-amber-500 shrink-0">
+                      <MapPin className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <div className="text-xs font-extrabold text-amber-500 uppercase tracking-wider">RECYCLE PLANT</div>
+                      <div className="font-semibold text-enviro-navy leading-relaxed mt-0.5">
+                        {companyInfo.factoryAddress.full}
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-
-              {/* Google Maps Embed */}
-              <div className="bg-white p-3 rounded-3xl border border-slate-200 shadow-card overflow-hidden h-72 relative">
-                <iframe
-                  src={companyInfo.mapUrl}
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen={false}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="rounded-2xl"
-                  title="EnviroServe Office Map Location"
-                />
               </div>
 
             </div>
