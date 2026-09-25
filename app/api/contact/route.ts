@@ -15,8 +15,41 @@ export async function POST(request: Request) {
     const body = await request.json();
     const validatedData = contactSchema.parse(body);
 
-    // Architecture ready for email gateway / CRM integration (e.g. Resend, SendGrid, Hubspot)
+    // 1. Log Enquiry
     console.log("EnviroServe Contact Enquiry Received:", validatedData);
+
+    // 2. Google Sheets API Integration (Google Apps Script Webhook)
+    const googleSheetWebhookUrl = process.env.GOOGLE_SHEET_WEBHOOK_URL;
+
+    if (googleSheetWebhookUrl) {
+      try {
+        const sheetRes = await fetch(googleSheetWebhookUrl, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            timestamp: new Date().toISOString(),
+            name: validatedData.name,
+            phone: validatedData.phone,
+            email: validatedData.email,
+            company: validatedData.company || "N/A",
+            service: validatedData.service,
+            message: validatedData.message || "",
+          }),
+        });
+
+        if (!sheetRes.ok) {
+          console.error("Google Sheets Webhook response error:", await sheetRes.text());
+        } else {
+          console.log("Successfully forwarded enquiry to Google Sheet!");
+        }
+      } catch (sheetErr) {
+        console.error("Failed to forward enquiry to Google Sheet Webhook:", sheetErr);
+      }
+    } else {
+      console.warn("GOOGLE_SHEET_WEBHOOK_URL is not set in environment variables. Form data processed locally.");
+    }
 
     return NextResponse.json(
       {

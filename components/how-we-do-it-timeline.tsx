@@ -88,7 +88,7 @@ export function HowWeDoItTimeline() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: idx * 0.1 }}
-                  className="flex flex-col items-center text-center group"
+                  className="flex flex-col items-center text-center group cursor-pointer"
                 >
                   {/* Step Badge */}
                   <div className="relative mb-5">
@@ -126,7 +126,7 @@ export function HowWeDoItTimeline() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: idx * 0.08 }}
-                className="p-5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-3 shadow-lg"
+                className="p-5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-3 shadow-lg cursor-pointer hover:border-emerald-500/40 transition-colors"
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">

@@ -52,14 +52,15 @@ export function WhyEnviroServe() {
                 key={idx}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
+                whileHover={{ y: -6 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: idx * 0.1 }}
-                className="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-card hover:shadow-card-hover transition-all duration-300 space-y-4"
+                transition={{ duration: 0.3, delay: idx * 0.08 }}
+                className="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-card hover:shadow-card-hover hover:border-emerald-300 transition-all duration-300 space-y-4 cursor-pointer group"
               >
-                <div className="w-12 h-12 rounded-xl bg-enviro-light text-enviro-green flex items-center justify-center">
-                  <Icon className="w-6 h-6" />
+                <div className="w-12 h-12 rounded-xl bg-enviro-light text-enviro-green group-hover:bg-emerald-600 group-hover:text-white flex items-center justify-center transition-colors duration-300">
+                  <Icon className="w-6 h-6 transition-transform duration-300 group-hover:scale-110" />
                 </div>
-                <h3 className="text-lg font-bold text-enviro-navy">
+                <h3 className="text-lg font-bold text-enviro-navy group-hover:text-enviro-green transition-colors">
                   {point.title}
                 </h3>
                 <p className="text-xs sm:text-sm text-enviro-gray leading-relaxed">

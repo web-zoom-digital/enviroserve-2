@@ -68,9 +68,10 @@ export function IndustriesServed() {
                 key={idx}
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
+                whileHover={{ y: -5, scale: 1.02 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: idx * 0.08 }}
-                className="group p-6 rounded-2xl bg-enviro-bg border border-slate-200/80 hover:border-emerald-300 transition-all duration-300 flex items-start gap-4 shadow-sm hover:shadow-md"
+                transition={{ duration: 0.3, delay: idx * 0.06 }}
+                className="group p-6 rounded-2xl bg-enviro-bg border border-slate-200/80 hover:border-emerald-300 transition-all duration-300 flex items-start gap-4 shadow-sm hover:shadow-md cursor-pointer"
               >
                 <div className={`p-3.5 rounded-xl border flex items-center justify-center shrink-0 transition-all duration-300 ${ind.colorStyle}`}>
                   <Icon className="w-6 h-6" />

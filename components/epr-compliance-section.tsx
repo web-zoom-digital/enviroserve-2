@@ -93,12 +93,13 @@ export function EPRComplianceSection() {
                 key={idx}
                 initial={{ opacity: 0, y: 15 }}
                 whileInView={{ opacity: 1, y: 0 }}
+                whileHover={{ y: -6 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: idx * 0.08 }}
+                transition={{ duration: 0.3, delay: idx * 0.08 }}
               >
                 <Link
                   href={module.href}
-                  className="group block bg-slate-50 hover:bg-enviro-light/60 p-6 rounded-2xl border border-slate-200/80 hover:border-emerald-300 transition-all duration-300 h-full flex flex-col justify-between"
+                  className="group block bg-slate-50 hover:bg-enviro-light/60 p-6 rounded-2xl border border-slate-200/80 hover:border-emerald-300 transition-all duration-300 h-full flex flex-col justify-between cursor-pointer"
                 >
                   <div className="space-y-4">
                     {/* Content-matched Icon, Image Thumbnail & Category Badge */}

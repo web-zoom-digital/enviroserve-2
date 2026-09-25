@@ -71,7 +71,7 @@ export function CollectingPartnerSection() {
           <div className="lg:col-span-6 flex justify-center lg:justify-end items-center">
             <div className="flex flex-col items-center justify-center space-y-5 max-w-[440px] w-full mx-auto lg:ml-auto lg:mr-0">
               {/* ReTrash Image Graphic Card */}
-              <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-lg border border-slate-200/90 bg-white">
+              <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-lg border border-slate-200/90 bg-white cursor-pointer hover:scale-[1.01] transition-transform">
                 <Image
                   src="/images/services/retrash.webp"
                   alt="ReTrash — Collection Network Partner"
@@ -86,7 +86,7 @@ export function CollectingPartnerSection() {
                 href={playStoreUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full block transition-transform duration-200 hover:scale-[1.02] active:scale-95 shadow-lg rounded-2xl"
+                className="w-full block transition-transform duration-200 hover:scale-[1.02] active:scale-95 shadow-lg rounded-2xl cursor-pointer"
               >
                 <div className="bg-black text-white px-6 py-4 rounded-2xl border border-slate-800 flex items-center justify-center gap-4 w-full">
                   <svg className="w-8 h-8 shrink-0" viewBox="0 0 24 24">

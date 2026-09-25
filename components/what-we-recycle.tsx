@@ -132,7 +132,7 @@ export function WhatWeRecycle() {
                 >
                   <Link
                     href={card.href}
-                    className="group block bg-enviro-bg rounded-2xl p-6 border border-slate-200/80 shadow-card hover:shadow-card-hover hover:-translate-y-1.5 transition-all duration-300 h-full flex flex-col justify-between"
+                    className="group block bg-enviro-bg rounded-2xl p-6 border border-slate-200/80 shadow-card hover:shadow-card-hover hover:-translate-y-1.5 transition-all duration-300 h-full flex flex-col justify-between cursor-pointer"
                   >
                     <div className="space-y-4">
                       {/* Top Header: Content-matched Icon Badge & Image */}

@@ -108,7 +108,7 @@ export function TechnologyPartners() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
-              className="snap-center shrink-0 w-[88vw] max-w-[420px] sm:w-[480px] md:w-auto md:shrink group relative bg-white rounded-3xl p-6 sm:p-9 border border-slate-200/90 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col justify-between overflow-hidden"
+              className="snap-center shrink-0 w-[88vw] max-w-[420px] sm:w-[480px] md:w-auto md:shrink group relative bg-white rounded-3xl p-6 sm:p-9 border border-slate-200/90 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col justify-between overflow-hidden cursor-pointer"
             >
               {/* Background Ambient Glow on Hover */}
               <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
@@ -171,7 +171,7 @@ export function TechnologyPartners() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.15 }}
-              className="snap-center shrink-0 w-[88vw] max-w-[420px] sm:w-[480px] md:w-auto md:shrink group relative bg-white rounded-3xl p-6 sm:p-9 border border-slate-200/90 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col justify-between overflow-hidden"
+              className="snap-center shrink-0 w-[88vw] max-w-[420px] sm:w-[480px] md:w-auto md:shrink group relative bg-white rounded-3xl p-6 sm:p-9 border border-slate-200/90 shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col justify-between overflow-hidden cursor-pointer"
             >
               {/* Background Ambient Glow on Hover */}
               <div className="absolute inset-0 bg-gradient-to-br from-teal-500/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />

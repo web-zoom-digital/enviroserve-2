@@ -36,7 +36,7 @@ export function LatestBlogs() {
           {recentBlogs.map((blog, idx) => (
             <article
               key={idx}
-              className="bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-card hover:shadow-card-hover transition-all duration-300 flex flex-col justify-between group"
+              className="bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-card hover:shadow-card-hover transition-all duration-300 flex flex-col justify-between group cursor-pointer"
             >
               <div>
                 <div className="relative h-48 w-full overflow-hidden bg-slate-100">
