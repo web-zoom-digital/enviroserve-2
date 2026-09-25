@@ -7,23 +7,23 @@
 - **Li-Ion Battery Recycling**: Closed-loop recovery for Electric Vehicle (EV) power packs, Energy Storage Systems (ESS), and portable lithium batteries, extracting high-purity Black Mass (Lithium, Cobalt, Nickel, Manganese).
 - **CPCB EPR Compliance**: Turnkey Extended Producer Responsibility registration, obligation target auditing, physical credit generation, and portal returns for Producers, Importers, and Brand Owners (PIBOs).
 - **EPR Categories Covered**: E-Waste, Plastic Packaging (Cat I, II, III, IV), Battery Waste (Rules 2022), Waste Tyres (Pyrolysis/Crumb Rubber), Used Oil (Re-refining), and Multi-Category Portfolios.
-- **PRO Services**: Producer Responsibility Organisation take-back systems, consumer awareness drives, and ground-level collection hubs.
+- **Circular Economy Responsibility**: Closed-loop resource recovery, consumer awareness drives, and ground-level collection networks.
 - **Reverse Logistics**: Pan-India hazardous-certified transport fleet equipped with GPS tracking, UN-certified packaging, and Form-9 manifest compliance.
 - **Asset Liquidation**: Enterprise IT asset disposal with DoD 5220.22-M & NIST 800-88 certified data sanitization and residual value recovery.
 
-- **Collecting Partner (ReTrash)**: Organized doorstep waste & scrap collection network partner providing app-driven pickup scheduling (Google Play) for households, commercial offices, and institutions to channel dry recyclables into EnviroServe's recovery facilities.
+- **Collection Partner (ReTrash)**: Organized doorstep waste & scrap collection network partner providing app-driven pickup scheduling (Google Play) for households, commercial offices, and institutions to channel dry recyclables into EnviroServe's recovery facilities.
 
 ## Corporate Contact
 - **Legal Entity**: EnviroServe Technologies Pvt. Ltd.
 - **Corporate Address**: #3675, Netaji Subhash Marg, Daryaganj, New Delhi - 110002, India
-- **Toll Free Phone**: 1800 309 9943
-- **Direct Phone**: 011-43510683
+- **Primary Phone**: +91 99100 88435
+- **Secondary Phone**: +91 85534 82769
 - **Official Email**: info@enviroserve.in
 
 ## Key URLs
 - Homepage: https://enviroserve.in/
 - About Us: https://enviroserve.in/about
-- Collecting Partner (ReTrash): https://enviroserve.in/collecting-partner
+- Collection Partner (ReTrash): https://enviroserve.in/collecting-partner
 - How We Do It: https://enviroserve.in/how-we-do-it
 - Contact: https://enviroserve.in/contact
 - E-Waste Recycling: https://enviroserve.in/services/e-waste-recycling

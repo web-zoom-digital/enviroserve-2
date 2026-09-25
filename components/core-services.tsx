@@ -7,24 +7,8 @@ import { motion } from "framer-motion";
 import { Briefcase, ShieldCheck, Truck, HardDrive, ArrowRight } from "lucide-react";
 
 const coreServices = [
-  {
-    title: "PRO Services",
-    subtitle: "Producer Responsibility Organisation",
-    description: "Turnkey operational support managing post-consumer product lifecycles, ground-level collection bins, awareness drives, and verified channelisation.",
-    image: "/images/services/77b38d02-7a38-4c16-b60b-cd637fd8aa56.jpeg",
-    href: "/services/pro-services",
-    icon: Briefcase,
-    highlights: ["Ground-level collection network", "Public awareness campaigns", "Audit-ready reporting"],
-  },
-  {
-    title: "EPR Compliance",
-    subtitle: "Extended Producer Responsibility",
-    description: "Structured registration, target calculation, verified credit generation, and annual filing across CPCB single-window portals.",
-    image: "/images/services/3775146-1024x683.jpg",
-    href: "/services/e-waste-epr",
-    icon: ShieldCheck,
-    highlights: ["CPCB portal execution", "Credit procurement & transfer", "100% Audit immunity"],
-  },
+  
+  
   {
     title: "Reverse Logistics",
     subtitle: "Pan-India Secure Transportation",
@@ -42,6 +26,24 @@ const coreServices = [
     href: "/services/asset-liquidation",
     icon: HardDrive,
     highlights: ["Certified data destruction", "On-site mobile shredding", "Fair market valuation"],
+  },
+  {
+    title: "EPR Compliance",
+    subtitle: "Extended Producer Responsibility",
+    description: "Structured registration, target calculation, verified credit generation, and annual filing across CPCB single-window portals.",
+    image: "/images/services/3775146-1024x683.jpg",
+    href: "/services/e-waste-epr",
+    icon: ShieldCheck,
+    highlights: ["CPCB portal execution", "Credit procurement & transfer", "100% Audit immunity"],
+  },
+  {
+    title: "Circular Economy Responsibility",
+    subtitle: "Circular Economy Responsibility",
+    description: "Turnkey operational support managing post-consumer product lifecycles, closed-loop resource recovery, ground-level collection networks, and verified material channelisation.",
+    image: "/images/services/77b38d02-7a38-4c16-b60b-cd637fd8aa56.jpeg",
+    href: "/services/pro-services",
+    icon: Briefcase,
+    highlights: ["Closed-loop resource recovery", "Ground-level collection network", "Audit-ready reporting"],
   },
 ];
 

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -59,8 +59,8 @@ const categoryCards = [
   },
   {
     title: "Other Recyclables",
-    subtitle: "Tyres, Used Oil & Industrial Scrap",
-    description: "Comprehensive take-back solutions for waste tyres, used oil, and industrial scrap.",
+    subtitle: "Paper, Cardboard & Industrial Scrap",
+    description: "Organized channelization and recovery solutions for industrial paper, cardboard, and bulk recyclables.",
     image: "/images/categories/recyclables.jpg",
     href: "/services/multi-category-epr",
     icon: Sparkles,
@@ -70,31 +70,6 @@ const categoryCards = [
 ];
 
 export function WhatWeRecycle() {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const scrollRef = useRef<HTMLDivElement>(null);
-
-  const handleScroll = () => {
-    if (!scrollRef.current) return;
-    const container = scrollRef.current;
-    const scrollPosition = container.scrollLeft;
-    const cardWidth = container.firstElementChild?.clientWidth || 280;
-    const newIndex = Math.round(scrollPosition / (cardWidth + 16));
-    if (newIndex !== activeIndex && newIndex >= 0 && newIndex < categoryCards.length) {
-      setActiveIndex(newIndex);
-    }
-  };
-
-  const scrollToSlide = (index: number) => {
-    if (!scrollRef.current) return;
-    const container = scrollRef.current;
-    const cardWidth = container.firstElementChild?.clientWidth || 280;
-    container.scrollTo({
-      left: index * (cardWidth + 16),
-      behavior: "smooth",
-    });
-    setActiveIndex(index);
-  };
-
   return (
     <section className="py-16 sm:py-20 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -112,13 +87,9 @@ export function WhatWeRecycle() {
           </p>
         </div>
 
-        {/* Responsive Container: Row Slider on Mobile, Grid on Desktop */}
+        {/* Responsive Container: Centered Grid on Mobile & Desktop */}
         <div className="relative">
-          <div
-            ref={scrollRef}
-            onScroll={handleScroll}
-            className="flex overflow-x-auto snap-x snap-mandatory [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden gap-4 pb-4 pt-1 -mx-4 cursor-pointer px-4 sm:-mx-6 sm:px-6 md:mx-0 md:px-0 md:pt-0 md:pb-0 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 md:overflow-visible"
-          >
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {categoryCards.map((card, idx) => {
               const Icon = card.icon;
               return (
@@ -128,7 +99,7 @@ export function WhatWeRecycle() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: idx * 0.1 }}
-                  className="snap-center shrink-0 w-[85vw] max-w-[340px] sm:w-[360px] md:w-auto md:shrink flex flex-col"
+                  className="w-full flex flex-col"
                 >
                   <Link
                     href={card.href}
@@ -176,22 +147,6 @@ export function WhatWeRecycle() {
                 </motion.div>
               );
             })}
-          </div>
-
-          {/* Slider Pagination Controls (Mobile only) */}
-          <div className="flex items-center justify-center gap-2 mt-4 md:hidden">
-            {categoryCards.map((_, idx) => (
-              <button
-                key={idx}
-                onClick={() => scrollToSlide(idx)}
-                aria-label={`Go to slide ${idx + 1}`}
-                className={`transition-all duration-300 rounded-full ${
-                  activeIndex === idx
-                    ? "w-7 h-2.5 bg-emerald-600"
-                    : "w-2.5 h-2.5 bg-slate-300 hover:bg-slate-400"
-                }`}
-              />
-            ))}
           </div>
         </div>
 

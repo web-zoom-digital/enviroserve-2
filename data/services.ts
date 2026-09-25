@@ -631,145 +631,7 @@ export const servicesData: Record<string, ServiceDetail> = {
     },
   },
 
-  "plastic-waste-epr": {
-    slug: "plastic-waste-epr",
-    title: "Plastic Packaging Waste EPR Registration & Credits",
-    shortTitle: "Plastic Waste EPR",
-    eyebrowCategory: "EPR COMPLIANCE",
-    category: "EPR Compliance",
-    heroImage: "/images/categories/plastic.webp",
-    heroDescription:
-      "Comprehensive Extended Producer Responsibility (EPR) registration, category-wise credit fulfillment, and annual return submission for Category I (Rigid), Category II (Flexible), Category III (Multi-Layered), and Category IV (Compostable) plastic packaging.",
-    summary: {
-      text: "Producers, Importers, and Brand Owners (PIBOs) introducing plastic packaging into the market must fulfill 100% recycling targets across distinct plastic categories. EnviroServe delivers Category I-IV EPR credit procurement and portal filing.",
-      highlights: [
-        "Categories I, II, III & IV Plastic Credits",
-        "CPCB Single-Window Portal",
-        "Co-Processing & Recycling Backing",
-        "Zero Penalty Audit Protection",
-      ],
-    },
-    alternatingSections: [
-      {
-        title: "Mandatory Plastic Packaging EPR Guidelines",
-        subtitle: "Category-Specific Recycling Targets",
-        content: [
-          "Plastic Waste Management Rules mandate that PIBOs account for all rigid containers, flexible wrappers, multi-layered laminates, and compostable films placed on the market.",
-          "Targets require strict category matching, where credits for Category I rigid plastic cannot offset Category II flexible plastic obligations.",
-        ],
-        points: [
-          "Category I: Rigid plastic packaging (PET, HDPE containers)",
-          "Category II: Single or multi-layer flexible plastic packaging",
-          "Category III: Multi-layered plastic packaging (MLP with foil)",
-          "Category IV: Compostable plastic packaging sheets and bags",
-        ],
-        image: "/images/blog/plastic-waste.webp",
-        imageAlt: "Sorted Plastic Recycling Bales and Packaging Waste",
-      },
-      {
-        title: "Plastic Footprint Audit & Category Mapping",
-        subtitle: "Precise Tonnage Reconciliation",
-        content: [
-          "EnviroServe audits your annual packaging procurement and import ledgers, segregating total plastic mass into exact Category I, II, III, and IV ratios.",
-          "We establish an audit-proof compliance plan, calculating obligatory recycling tons ahead of CPCB portal submission.",
-        ],
-        points: [
-          "ICEGATE import bill analysis for plastic packaging importers",
-          "FMCG and retail packaging mass reconciliation",
-          "Category ratio mapping to avoid audit mismatches",
-        ],
-        image: "/images/services/plastic3feat-min.png",
-        imageAlt: "Plastic Packaging Sorting and Material Identification",
-      },
-      {
-        title: "Legitimate Credit Procurement & Co-Processing",
-        subtitle: "Verified Waste Processor Backing",
-        content: [
-          "We source legitimate recycling credits from CPCB-registered plastic recyclers and cement co-processing kilns.",
-          "Non-recyclable multi-layered plastics (Cat III) are channelized for energy recovery in cement kilns, ensuring 100% compliant diversion from municipal landfills.",
-        ],
-        points: [
-          "Mechanical recycling credits for Cat I & II plastics",
-          "Cement kiln co-processing credits for Cat III MLP",
-          "Transparent mass-balance documentation from registered processors",
-        ],
-        image: "/images/hero/hero-home-dslr.jpg",
-        imageAlt: "Plastic Processing and Material Shredding Facility",
-      },
-      {
-        title: "CPCB Portal Trading & Annual Return Submission",
-        subtitle: "End-to-End Compliance Execution",
-        content: [
-          "EnviroServe executes credit transactions on the centralized CPCB plastic portal, transferring verified certificates directly to your brand account.",
-          "We prepare and submit annual plastic returns, ensuring complete protection against CPCB query notices or financial penalties.",
-        ],
-        points: [
-          "Direct credit transfer on CPCB centralized portal",
-          "Annual return submission with zero category data mismatch",
-          "Comprehensive digital archive for SPCB inspections",
-        ],
-        image: "/images/blog/epr-compliance.webp",
-        imageAlt: "Centralized Plastic Portal Filing and Documentation",
-      },
-    ],
-    processSteps: [
-      { number: "01", title: "Category Audit", description: "Audit plastic packaging mass across Category I, II, III, and IV." },
-      { number: "02", title: "Portal Registration", description: "File application on CPCB centralized Plastic EPR Portal." },
-      { number: "03", title: "Credit Sourcing", description: "Procure verified plastic recycling & co-processing certificates." },
-      { number: "04", title: "Credit Transfer", description: "Transfer category-matched credits to your producer portal account." },
-      { number: "05", title: "Annual Filing", description: "Submit verified annual plastic packaging returns to CPCB." },
-    ],
-    benefits: [
-      { title: "100% Category Accuracy", description: "Zero risk of mismatched credit categories during CPCB portal audits." },
-      { title: "Co-Processing Solution", description: "Safely channelize non-recyclable multi-layer plastics to cement kilns for energy recovery." },
-      { title: "License Protection", description: "Safeguard business operating permits and import licenses from statutory holds." },
-      { title: "Single-Window Advisory", description: "Turnkey service managing registration, credit matching, trading, and return filing." },
-    ],
-    targetAudience: {
-      title: "WHO IS THIS FOR?",
-      categories: [
-        "FMCG Brands & Food/Beverage Manufacturers",
-        "E-Commerce Marketplaces & Logistics Operators",
-        "Pharmaceutical & Cosmetic Importers",
-        "Industrial Packaging Users & Chemical Brands",
-      ],
-    },
-    whyEnviroServe: {
-      title: "WHY ENVIROSERVE",
-      items: [
-        { title: "Verified Processor Network", desc: "Direct partnerships with registered plastic recyclers and cement co-processors." },
-        { title: "Category Specificity", desc: "Expert matching of Cat I, II, III, IV obligations with verified processing streams." },
-        { title: "Zero Discrepancy Record", desc: "Track record of error-free annual return submissions on CPCB portals." },
-      ],
-    },
-    faqs: [
-      {
-        question: "What are Category I, II, III, and IV plastics under Plastic EPR?",
-        answer: "Cat I = Rigid plastic packaging; Cat II = Single or multi-layer flexible plastic; Cat III = Multi-layered plastic packaging with non-plastic layers; Cat IV = Compostable plastic sheets and bags.",
-      },
-      {
-        question: "Can Category I credits be used to cover Category II target shortfalls?",
-        answer: "No, CPCB guidelines strictly prohibit inter-category credit substitution. Obligations for each plastic category must be fulfilled with matching category certificates.",
-      },
-      {
-        question: "What happens to non-recyclable multi-layered plastic (Cat III)?",
-        answer: "Multi-layered plastic is channelized for co-processing in cement kilns or waste-to-energy plants, where high temperatures safely convert plastic into thermal energy without landfilling.",
-      },
-      {
-        question: "Who is required to register under Plastic Waste EPR?",
-        answer: "Producers, Importers, Brand Owners (PIBOs), and Plastic Waste Processors (PWPs) operating in India must register on the CPCB centralized portal.",
-      },
-      {
-        question: "When is the annual return deadline for Plastic EPR?",
-        answer: "Annual plastic returns are typically due on June 30th following the end of the financial year.",
-      },
-    ],
-    meta: {
-      title: "Plastic Waste EPR Registration & Credits | EnviroServe",
-      description: "Category I-IV plastic packaging EPR registration, credit procurement, and annual return filing for PIBOs in India.",
-      keywords: ["plastic epr", "plastic packaging epr", "cat 1 cat 2 plastic credit", "cpcb plastic portal", "plastic waste management India"],
-    },
-  },
+
 
   "battery-waste-epr": {
     slug: "battery-waste-epr",
@@ -910,283 +772,9 @@ export const servicesData: Record<string, ServiceDetail> = {
     },
   },
 
-  "tyre-waste-epr": {
-    slug: "tyre-waste-epr",
-    title: "Waste Tyre EPR Advisory & Certificate Procurement",
-    shortTitle: "Tyre Waste EPR",
-    eyebrowCategory: "EPR COMPLIANCE",
-    category: "EPR Compliance",
-    heroImage: "/images/hero/tyre-epr.png",
-    heroDescription:
-      "CPCB registration and recycling certificate fulfillment for automotive tyre producers, importers, and vehicle OEMs. Procuring verified Crumb Rubber Modifier (CRM) and Pyrolysis credits from authorized units.",
-    summary: {
-      text: "Under Hazardous and Other Wastes Rules, Tyre EPR mandates that producers and importers offset their new tyre manufacturing or import weight by purchasing certificates generated by registered tyre recycling plants.",
-      highlights: [
-        "Crumb Rubber (CRM) Credits",
-        "Pyrolysis Oil & Carbon Black Credits",
-        "CPCB Tyre Portal Filing",
-        "Automotive OEM & Importer Scope",
-      ],
-    },
-    alternatingSections: [
-      {
-        title: "The Growing Need for Waste Tyre Recycling",
-        subtitle: "Environmental Hazard Mitigation",
-        content: [
-          "Scrap tyres represent a severe fire risk and public health hazard when left in open stockpiles. Tyre fires emit toxic black smoke and sulfurous pollutants that are difficult to extinguish.",
-          "Tyre EPR guidelines force tyre brands and vehicle importers to fund the conversion of waste tyres into crumb rubber, modified bitumen, or recovered carbon black.",
-        ],
-        points: [
-          "Prevention of uncontrolled open tyre fires",
-          "Channelization to crumb rubber and pyrolysis plants",
-          "Mandatory target fulfillment under national hazardous rules",
-        ],
-        image: "/images/services/tyre-recycling.png",
-        imageAlt: "Waste Tyre Scrap Stockpiles and Processing Infrastructure",
-      },
-      {
-        title: "Tyre Tonnage Audit & Target Mapping",
-        subtitle: "Accurate Weight Calculations",
-        content: [
-          "EnviroServe audits your annual tyre production or vehicle import ledgers, establishing exact weight metrics in metric tons across passenger, commercial, and off-road tyre categories.",
-          "We formulate an audit-proof compliance plan matching CPCB's mandatory annual recycling ramp-up percentages.",
-        ],
-        points: [
-          "Tonnage audit for domestic manufacturers and tyre importers",
-          "Mapping built-up vehicle imports (CBU/CKD units)",
-          "ICEGATE import bill reconciliation",
-        ],
-        image: "/images/services/tyre-aduit-image.png",
-        imageAlt: "Automotive Tyre Inventory and Shredding Assessment",
-      },
-      {
-        title: "Crumb Rubber & Pyrolysis Credit Sourcing",
-        subtitle: "Verified Processor Partnerships",
-        content: [
-          "We procure legitimate EPR certificates exclusively from CPCB-registered Crumb Rubber Modifier (CRM) plants and modern Pyrolysis processing units.",
-          "Recyclers convert scrap tyres into CRM for rubberized road construction or recovered carbon black (rCB) and pyrolysis oil, issuing verified credits on national portals.",
-        ],
-        points: [
-          "CRM credits for asphalt modification in highway construction",
-          "Recovered Carbon Black (rCB) credits from pyrolysis units",
-          "Transparent mass-balance logs from registered processors",
-        ],
-        image: "/images/services/crumb-rubbing.png",
-        imageAlt: "Tyre Shredding and Crumb Rubber Processing Machinery",
-      },
-      {
-        title: "Centralized CPCB Portal Trading & Annual Filing",
-        subtitle: "Seamless Compliance Execution",
-        content: [
-          "EnviroServe executes certificate purchases on the CPCB Tyre Waste EPR portal, transferring credits directly to your producer account.",
-          "We prepare and submit annual returns, protecting your business from non-compliance fines or statutory query notices.",
-        ],
-        points: [
-          "Direct credit transfer on centralized CPCB tyre portal",
-          "Annual return submission with zero weight calculation errors",
-          "Full digital archive for state pollution board audits",
-        ],
-        image: "/images/blog/epr-compliance.webp",
-        imageAlt: "Centralized CPCB Tyre Portal Filing and Returns",
-      },
-    ],
-    processSteps: [
-      { number: "01", title: "Tyre Mass Audit", description: "Audit annual tyre manufacturing or import weight in metric tons." },
-      { number: "02", title: "CPCB Portal Registration", description: "File application for Producer/Importer Registration under Tyre EPR Rules." },
-      { number: "03", title: "Certificate Purchase", description: "Procure verified Crumb Rubber or Pyrolysis recycling credits." },
-      { number: "04", title: "Credit Transfer", description: "Transfer certified credits to your producer portal account." },
-      { number: "05", title: "Annual Return", description: "File annual compliance returns ahead of CPCB cutoffs." },
-    ],
-    benefits: [
-      { title: "Verified Pyrolysis & CRM Credits", description: "100% compliant documentation from pollution-board approved plants." },
-      { title: "License Continuity", description: "Protect vehicle import permits and tyre manufacturing licenses from CPCB holds." },
-      { title: "Turnkey Execution", description: "Single-window service handling target audit, credit procurement, and return submission." },
-      { title: "Circular Road Construction", description: "Support sustainable infrastructure by funding crumb rubber modification of road asphalt." },
-    ],
-    targetAudience: {
-      title: "WHO IS THIS FOR?",
-      categories: [
-        "Automotive Tyre Manufacturers",
-        "Tyre Importers & Commercial Distributors",
-        "Vehicle OEMs Importing Built-Up Units (CBU/CKD)",
-        "Equipment OEMs using Heavy Off-Road Tyres",
-      ],
-    },
-    whyEnviroServe: {
-      title: "WHY ENVIROSERVE",
-      items: [
-        { title: "Registered Recycler Network", desc: "Direct partnerships with CPCB-approved CRM and Pyrolysis processing units." },
-        { title: "Tyre Tonnage Specialists", desc: "Accurate weight audit across two-wheeler, passenger, and commercial tyre lines." },
-        { title: "Zero Penalty Assurance", desc: "Timely credit transfer and error-free annual return filing." },
-      ],
-    },
-    faqs: [
-      {
-        question: "Who is obligated under Tyre Waste EPR in India?",
-        answer: "Producers (domestic tyre manufacturers), Importers of new tyres, and Vehicle OEMs importing vehicles equipped with tyres are obligated under Tyre EPR guidelines.",
-      },
-      {
-        question: "What products generate Tyre EPR credits?",
-        answer: "Credits are generated by CPCB-registered recyclers who convert scrap tyres into Crumb Rubber Modifier (CRM), Reclaimed Rubber, Pyrolysis Oil, or Recovered Carbon Black (rCB).",
-      },
-      {
-        question: "How are tyre weight targets calculated?",
-        answer: "Targets are calculated based on the net weight of tyres placed on the market in previous years, adjusted for CPCB's annual percentage escalation schedule.",
-      },
-      {
-        question: "Can imported used tyres be recycled for EPR credits?",
-        answer: "Only CPCB-registered processors handling scrap tyres within authorized environmental parameters can issue valid EPR credits.",
-      },
-      {
-        question: "When are annual returns due for Tyre EPR?",
-        answer: "Annual returns are filed on the centralized CPCB portal following the end of each financial year.",
-      },
-    ],
-    meta: {
-      title: "Tyre Waste EPR Advisory & Credits | EnviroServe",
-      description: "CPCB Tyre EPR registration, Crumb Rubber (CRM) credit procurement, and annual return filing for tyre brands.",
-      keywords: ["tyre epr", "crumb rubber epr credit", "pyrolysis epr credit", "cpcb tyre portal", "tyre waste recycling India"],
-    },
-  },
 
-  "used-oil-epr": {
-    slug: "used-oil-epr",
-    title: "Used Oil EPR Advisory & Re-Refining Credit Management",
-    shortTitle: "Used Oil EPR",
-    eyebrowCategory: "EPR COMPLIANCE",
-    category: "EPR Compliance",
-    heroImage: "/images/services/WhatsApp-Image-2025-12-16-at-15.04.31-3.jpeg",
-    heroDescription:
-      "Regulatory support and recycling credit procurement for base oil and lubricant producers, importers, and re-refiners. Facilitating CPCB portal registration, credit matching, and annual return submissions.",
-    summary: {
-      text: "Used oil dumping contaminates soil and aquatic ecosystems. CPCB Used Oil EPR rules mandate that lubricant brands and base oil importers offset their production by purchasing re-refining certificates from vacuum distillation units.",
-      highlights: [
-        "Re-Refining Credit Sourcing",
-        "Base Oil & Lubricant Scope",
-        "Vacuum Distillation Verification",
-        "CPCB Used Oil Portal Filing",
-      ],
-    },
-    alternatingSections: [
-      {
-        title: "The Environmental Risks of Unregulated Spent Oil",
-        subtitle: "Water Protection & Re-Refining",
-        content: [
-          "One liter of disposed engine oil can contaminate up to one million liters of fresh water. Burning used oil informally releases toxic heavy metals and carcinogenic polyaromatic hydrocarbons.",
-          "Used Oil EPR rules mandate that lubricant producers support closed-loop vacuum distillation re-refining to turn spent oil back into virgin-grade base oil (RRBO).",
-        ],
-        points: [
-          "Prevention of informal oil burning and soil contamination",
-          "Production of Re-Refined Base Oil (RRBO)",
-          "Mandatory target fulfillment for base oil producers",
-        ],
-        image: "/images/services/WhatsApp-Image-2025-12-16-at-15.04.31-3.jpeg",
-        imageAlt: "Industrial Used Oil Storage Drums and Re-Refining Facility",
-      },
-      {
-        title: "Base Oil Volume Audit & Target Calculation",
-        subtitle: "Precise Volumetric Reconciliation",
-        content: [
-          "EnviroServe audits your annual base oil manufacturing or import ledgers, establishing exact volumetric targets in kiloliters or metric tons across engine, hydraulic, and transformer oils.",
-          "We establish an audit-proof compliance plan matching CPCB's annual re-refining percentage schedule.",
-        ],
-        points: [
-          "Volume audit for lubricant blenders and base oil importers",
-          "Reconciliation of industrial hydraulic and transformer oil sales",
-          "ICEGATE import bill verification",
-        ],
-        image: "/images/services/WhatsApp-Image-2025-12-16-at-15.04.31.jpeg",
-        imageAlt: "Industrial Lubricant Storage Containers and Facility",
-      },
-      {
-        title: "Vacuum Distillation Re-Refining Credit Sourcing",
-        subtitle: "High-Yield Environmental Processing",
-        content: [
-          "We procure legitimate EPR certificates exclusively from CPCB-registered re-refining facilities utilizing thin-film vacuum distillation processes.",
-          "Re-refiners process spent lube oil into high-viscosity index base oil, issuing verified recycling certificates that are published on national portals.",
-        ],
-        points: [
-          "Vacuum distillation credits backing virgin-grade base oil re-entry",
-          "Zero-pollution re-refining compliance verification",
-          "Non-duplicable digital credit transfer certificates",
-        ],
-        image: "/images/hero/hero-services-dslr.jpg",
-        imageAlt: "Industrial Vacuum Distillation Re-Refining Facility",
-      },
-      {
-        title: "Centralized Portal Management & Annual Returns",
-        subtitle: "Audit-Proof Regulatory Execution",
-        content: [
-          "EnviroServe manages your CPCB Used Oil portal account—executing credit transfers and filing error-free annual returns.",
-          "Clients receive complete digital compliance binders verifying zero target shortfall and full protection from environmental compensation liabilities.",
-        ],
-        points: [
-          "Direct credit transfer on centralized CPCB used oil portal",
-          "Annual return submission with zero volumetric calculation errors",
-          "Complete digital compliance archive for state board audits",
-        ],
-        image: "/images/blog/epr-compliance.webp",
-        imageAlt: "Centralized Used Oil Portal Filing and Documentation",
-      },
-    ],
-    processSteps: [
-      { number: "01", title: "Volume Audit", description: "Audit annual volume of base oil imported or manufactured in metric tons." },
-      { number: "02", title: "Portal Registration", description: "Obtain Producer/Importer Registration under CPCB Used Oil Rules." },
-      { number: "03", title: "Credit Procurement", description: "Procure verified re-refining credits generated from spent oil processing." },
-      { number: "04", title: "Credit Transfer", description: "Transfer certified re-refining credits to your producer portal account." },
-      { number: "05", title: "Annual Return", description: "Submit verified annual used oil returns ahead of statutory cutoffs." },
-    ],
-    benefits: [
-      { title: "Clean Water Protection", description: "Demonstrate verified environmental stewardship under corporate CSR & ESG frameworks." },
-      { title: "Re-Refining Credit Assurance", description: "Procure credits exclusively from thin-film vacuum distillation re-refiners." },
-      { title: "Turnkey Compliance", description: "Single-window service handling registration, target audit, credit transfer, and returns." },
-      { title: "License Immunity", description: "Protect base oil import permits and lubricant blending licenses from statutory holds." },
-    ],
-    targetAudience: {
-      title: "WHO IS THIS FOR?",
-      categories: [
-        "Base Oil Importers & Manufacturers",
-        "Automotive Engine Oil & Lubricant Brands",
-        "Industrial Hydraulic & Transformer Oil Suppliers",
-        "Grease & Metalworking Fluid Blenders",
-      ],
-    },
-    whyEnviroServe: {
-      title: "WHY ENVIROSERVE",
-      items: [
-        { title: "Vacuum Distillation Network", desc: "Partnerships with CPCB-approved thin-film vacuum distillation re-refineries." },
-        { title: "Volumetric Audit Accuracy", desc: "Precise volumetric target calculations for diverse oil grades." },
-        { title: "Zero Shortfall Protection", desc: "Guaranteed credit transfer ahead of mandatory filing cutoffs." },
-      ],
-    },
-    faqs: [
-      {
-        question: "Who is obligated under Used Oil EPR in India?",
-        answer: "Producers (base oil manufacturers and lubricant blenders), Importers of base oil or virgin lube oil, and Re-refiners are obligated under Used Oil EPR rules.",
-      },
-      {
-        question: "How are Used Oil EPR credits generated?",
-        answer: "Credits are generated by registered re-refiners who process spent lubricant oil into Re-Refined Base Oil (RRBO) using approved vacuum distillation technology.",
-      },
-      {
-        question: "Can used oil be burned for fuel to generate EPR credits?",
-        answer: "No, simple burning of used oil for fuel does not qualify for re-refining EPR credits. Credits require true re-refining back into base oil.",
-      },
-      {
-        question: "How are used oil targets calculated?",
-        answer: "Targets are calculated based on the volume of base oil or lube oil manufactured or imported in previous financial years.",
-      },
-      {
-        question: "When are annual returns due under Used Oil EPR?",
-        answer: "Annual returns are filed on the centralized CPCB Used Oil portal following the end of each financial year.",
-      },
-    ],
-    meta: {
-      title: "Used Oil EPR Advisory & Re-Refining Credits | EnviroServe",
-      description: "CPCB Used Oil EPR registration, re-refining credit procurement, and annual return filing for lubricant brands.",
-      keywords: ["used oil epr", "re-refining epr credit", "base oil epr", "cpcb used oil portal", "lube oil recycling India"],
-    },
-  },
+
+
 
   "multi-category-epr": {
     slug: "multi-category-epr",
@@ -1468,34 +1056,34 @@ export const servicesData: Record<string, ServiceDetail> = {
 
   "pro-services": {
     slug: "pro-services",
-    title: "Producer Responsibility Organisation (PRO) Turnkey Execution",
-    shortTitle: "PRO Services",
+    title: "Circular Economy Responsibility (CER) Turnkey Execution",
+    shortTitle: "Circular Economy Responsibility",
     eyebrowCategory: "ENTERPRISE SOLUTIONS",
     category: "Enterprise Solutions",
     heroImage: "/images/services/77b38d02-7a38-4c16-b60b-cd637fd8aa56.jpeg",
     heroDescription:
-      "Pan-India physical take-back infrastructure, consumer awareness campaigns, collection bin networks, and formal recycler channelization on behalf of electronics and battery brands.",
+      "Pan-India physical take-back infrastructure, closed-loop resource recovery, consumer awareness campaigns, and formal recycler channelization driving sustainable circular product lifecycles.",
     summary: {
-      text: "As an authorized Producer Responsibility Organisation (PRO), EnviroServe builds and operates ground-level collection systems, awareness drives, and compliant channelization to fulfill physical EPR obligations for global brands.",
+      text: "Through Circular Economy Responsibility (CER), EnviroServe operates ground-level collection networks, closed-loop resource recovery systems, and compliant channelization to help enterprises transition from linear disposal to a sustainable circular economy.",
       highlights: [
-        "Pan-India Take-Back Bins",
-        "Kabadiwala & Scrap Formalization",
-        "Public Eco-Awareness Drives",
-        "Traceable Channelization",
+        "Closed-Loop Resource Recovery",
+        "Pan-India Collection Bins",
+        "Kabadiwala & Aggregator Formalization",
+        "Traceable Sustainability Channelization",
       ],
     },
     alternatingSections: [
       {
-        title: "The Challenge of Ground-Level Collection Infrastructure",
-        subtitle: "Physical Take-Back Requirements",
+        title: "The Challenge of Circular Resource Recovery Infrastructure",
+        subtitle: "Physical Take-Back & Closed-Loop Needs",
         content: [
-          "Producers often struggle to establish physical take-back collection centers, execute consumer awareness campaigns, and track informal waste streams across India's vast geography.",
-          "CPCB rules require authorized PROs to bridge this gap by deploying compliant collection networks and formalizing informal scrap aggregators.",
+          "Producers and enterprises require robust physical collection systems, consumer awareness drives, and closed-loop recycling channels to keep valuable materials within the industrial cycle.",
+          "EnviroServe's Circular Economy Responsibility model bridges this gap by deploying compliant collection networks and formalizing informal scrap aggregators into traceable circular loops.",
         ],
         points: [
           "Establishing branded take-back bins in major metro hubs",
           "Integrating informal waste pickers into safe collection channels",
-          "Executing mandatory public awareness workshops under CPCB rules",
+          "Executing mandatory public awareness workshops under sustainability rules",
         ],
         image: "/images/services/77b38d02-7a38-4c16-b60b-cd637fd8aa56.jpeg",
         imageAlt: "EnviroServe Operations and Collection Center Network",
@@ -1516,7 +1104,7 @@ export const servicesData: Record<string, ServiceDetail> = {
         imageAlt: "Collection Bins and E-Waste Sorting Hub",
       },
       {
-        title: "Consumer Awareness & ESG Public Campaigns",
+        title: "Consumer Awareness & ESG Circularity Campaigns",
         subtitle: "Measurable Impact Education",
         content: [
           "We organize structured e-waste and battery awareness drives across schools, colleges, corporate offices, and municipal communities.",
@@ -1531,31 +1119,31 @@ export const servicesData: Record<string, ServiceDetail> = {
         imageAlt: "Corporate ESG Awareness Drive and Environmental Education",
       },
       {
-        title: "Traceable Channelization & CPCB Reporting",
-        subtitle: "Audit-Proof Material Management",
+        title: "Traceable Channelization & Closed-Loop Material Recovery",
+        subtitle: "Audit-Proof Resource Management",
         content: [
           "Collected scrap is channelized exclusively to licensed recycling facilities for scientific de-manufacturing and precious metal recovery.",
-          "PRO operations are documented through comprehensive monthly collection reports and manifest receipts submitted to state boards.",
+          "Circular Economy Responsibility operations are documented through comprehensive monthly collection reports and manifest receipts.",
         ],
         points: [
           "Exclusive channelization to CPCB-authorized processing plants",
           "Monthly collection tonnage and awareness activity logs",
-          "Comprehensive PRO audit representation for client brands",
+          "Comprehensive circularity representation for client brands",
         ],
         image: "/images/services/3775146-1024x683.jpg",
-        imageAlt: "PRO Operations Reporting and Document Archiving",
+        imageAlt: "Circularity Operations Reporting and Document Archiving",
       },
     ],
     processSteps: [
-      { number: "01", title: "Strategy Design", description: "Formulate take-back logistics plan tailored to brand sales distribution." },
+      { number: "01", title: "Strategy Design", description: "Formulate circular take-back logistics plan tailored to brand distribution." },
       { number: "02", title: "Bin Deployment", description: "Place branded collection boxes across corporate and retail points." },
       { number: "03", title: "Awareness Drives", description: "Execute public educational workshops and consumer eco-campaigns." },
       { number: "04", title: "Logistics Pickup", description: "Schedule regular collection and transport to authorized recycling centers." },
-      { number: "05", title: "Monthly Reporting", description: "Deliver comprehensive PRO collection and channelization audit reports." },
+      { number: "05", title: "Monthly Reporting", description: "Deliver comprehensive collection and channelization audit reports." },
     ],
     benefits: [
-      { title: "Turnkey Take-Back System", description: "Fulfill all physical EPR take-back requirements without capital expenditure." },
-      { title: "Brand Reputation Boost", description: "Showcase active corporate environmental responsibility to your consumer base." },
+      { title: "Turnkey Circular System", description: "Fulfill closed-loop resource recovery and physical take-back obligations without capital expenditure." },
+      { title: "Brand Reputation Boost", description: "Showcase active corporate environmental responsibility and circular economy commitment to stakeholders." },
       { title: "Informal Formalization", description: "Integrate traditional scrap aggregators into safe, wage-supported collection networks." },
       { title: "Audit Readiness", description: "Complete documentation backing all physical collection and awareness metrics." },
     ],
@@ -1563,7 +1151,7 @@ export const servicesData: Record<string, ServiceDetail> = {
       title: "WHO IS THIS FOR?",
       categories: [
         "Global Technology Brands entering the Indian Market",
-        "Electronics OEMs seeking turnkey physical EPR fulfillment",
+        "Electronics OEMs seeking turnkey physical circular fulfillment",
         "Retail Chains & Supermarket Networks establishing take-back bins",
         "Battery Manufacturers needing consumer collection networks",
       ],
@@ -1571,37 +1159,37 @@ export const servicesData: Record<string, ServiceDetail> = {
     whyEnviroServe: {
       title: "WHY ENVIROSERVE",
       items: [
-        { title: "CPCB Authorized PRO", desc: "Official PRO authorization under CPCB environmental frameworks." },
+        { title: "Authorized Circular Operations", desc: "Official authorization under national environmental frameworks." },
         { title: "Pan-India Ground Network", desc: "Established collection points and logistics connections nationwide." },
         { title: "Integrated Processing", desc: "Direct ownership of recycling channels ensuring zero unverified drop-offs." },
       ],
     },
     faqs: [
       {
-        question: "What is the difference between a PRO and an EPR Consultant?",
-        answer: "A Producer Responsibility Organisation (PRO) handles physical ground collection, logistics, consumer awareness drives, and recycling operations, whereas a consultant typically only manages paperwork.",
+        question: "What is Circular Economy Responsibility (CER)?",
+        answer: "Circular Economy Responsibility (CER) encompasses physical ground collection, closed-loop resource recovery, consumer awareness drives, and scientific recycling operations to ensure end-of-life products are transformed back into industrial raw materials.",
       },
       {
         question: "Can EnviroServe place branded e-waste drop boxes at client offices?",
         answer: "Yes, we design, deploy, and maintain custom co-branded collection boxes at corporate office sites, retail hubs, and tech parks.",
       },
       {
-        question: "How does EnviroServe track e-waste collected through PRO channels?",
+        question: "How does EnviroServe track e-waste collected through circular channels?",
         answer: "Every intake lot is weighed, barcoded, and logged in our digital inventory management system from collection point to final recycling.",
       },
       {
-        question: "Are public awareness campaigns mandatory under E-Waste Rules?",
-        answer: "Yes, CPCB guidelines require producers and PROs to conduct regular consumer awareness drives on e-waste segregation and hazards.",
+        question: "Are public awareness campaigns part of Circular Economy Responsibility?",
+        answer: "Yes, regular consumer awareness drives on e-waste segregation and environmental protection are an integral part of our circular responsibility initiatives.",
       },
       {
-        question: "What reporting does a brand receive from EnviroServe's PRO operations?",
-        answer: "Brands receive monthly collection logs, awareness campaign photo documentation, weight certificates, and CPCB audit summary reports.",
+        question: "What reporting does a brand receive from EnviroServe's circular operations?",
+        answer: "Brands receive monthly collection logs, awareness campaign photo documentation, weight certificates, and sustainability audit summary reports.",
       },
     ],
     meta: {
-      title: "Producer Responsibility Organisation (PRO) Services | EnviroServe",
-      description: "CPCB-authorized PRO services: Pan-India e-waste take-back, collection bin networks, and awareness drives.",
-      keywords: ["pro services e waste", "producer responsibility organization", "e-waste take back india", "cpcb authorized pro", "e-waste collection bin"],
+      title: "Circular Economy Responsibility Services | EnviroServe",
+      description: "Turnkey Circular Economy Responsibility services: Pan-India closed-loop recovery, collection bin networks, and awareness drives.",
+      keywords: ["circular economy responsibility", "closed loop recycling india", "circular product lifecycle", "e-waste take back india", "resource recovery"],
     },
   },
 

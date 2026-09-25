@@ -11,7 +11,7 @@ export function OrganizationJsonLd() {
     logo: "https://enviroserve.in/images/logo/EnviroServe-1.png",
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: companyInfo.contact.tollFree,
+      telephone: companyInfo.contact.primaryPhone,
       contactType: "customer service",
       areaServed: "IN",
       availableLanguage: ["en", "hi"],
@@ -45,7 +45,7 @@ export function LocalBusinessJsonLd() {
     image: "https://enviroserve.in/images/logo/EnviroServe-1.png",
     "@id": "https://enviroserve.in/#localbusiness",
     url: "https://enviroserve.in",
-    telephone: companyInfo.contact.tollFree,
+    telephone: companyInfo.contact.primaryPhone,
     address: {
       "@type": "PostalAddress",
       streetAddress: companyInfo.address.street,

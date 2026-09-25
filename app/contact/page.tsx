@@ -98,9 +98,12 @@ export default function ContactPage() {
                       <PhoneCall className="w-5 h-5" />
                     </div>
                     <div>
-                      <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">Office Phone</div>
-                      <a href={`tel:${companyInfo.contact.tollFree}`} className="font-bold text-enviro-navy hover:text-enviro-green transition-colors text-base block mt-0.5">
-                        Toll Free: {companyInfo.contact.tollFree}
+                      <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">Contact Phone Numbers</div>
+                      <a href={`tel:${companyInfo.contact.primaryPhone.replace(/\s+/g, "")}`} className="font-bold text-enviro-navy hover:text-enviro-green transition-colors text-base block mt-0.5">
+                        Primary: {companyInfo.contact.primaryPhone}
+                      </a>
+                      <a href={`tel:${companyInfo.contact.secondaryPhone.replace(/\s+/g, "")}`} className="font-bold text-enviro-navy hover:text-enviro-green transition-colors text-base block mt-0.5">
+                        Secondary: {companyInfo.contact.secondaryPhone}
                       </a>
                     </div>
                   </div>

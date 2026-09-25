@@ -22,7 +22,8 @@ import {
   ChevronDown,
   ArrowUpRight,
   CheckCircle2,
-  Sparkles
+  Sparkles,
+  ArrowDown
 } from "lucide-react";
 
 const playStoreUrl = process.env.NEXT_PUBLIC_RETRASH_PLAY_STORE_URL || "https://play.google.com/store/apps/details?id=com.retrash.partner&hl=en_IN";
@@ -131,7 +132,7 @@ const ecosystemSteps = [
 const faqs = [
   {
     question: "What is ReTrash and how does it relate to EnviroServe?",
-    answer: "ReTrash is EnviroServe's dedicated Collecting Partner. ReTrash focuses on the collection side of the recycling ecosystem—providing convenient, app-driven doorstep pickup for scrap, e-waste, and recyclable materials. EnviroServe receives and processes these collected materials in authorized recycling and material recovery facilities.",
+    answer: "ReTrash is EnviroServe's dedicated Collection Partner. ReTrash focuses on the collection side of the recycling ecosystem—providing convenient, app-driven doorstep pickup for scrap, e-waste, and recyclable materials. EnviroServe receives and processes these collected materials in authorized recycling and material recovery facilities.",
   },
   {
     question: "What types of waste can I schedule for pickup via ReTrash?",
@@ -248,8 +249,8 @@ export function CollectingPartnerContent() {
               </motion.a>
             </motion.div>
 
-            {/* Description & Value Proposition (8 cols) */}
-            <div className="lg:col-span-8 space-y-5">
+            {/* Description & Value Proposition (8 cols, Centered on Mobile, Left-aligned on Desktop) */}
+            <div className="lg:col-span-8 space-y-5 flex flex-col items-center lg:items-start text-center lg:text-left">
               <motion.div
                 initial={{ opacity: 0, x: -15 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -261,15 +262,15 @@ export function CollectingPartnerContent() {
                 <span>Smarter Collection Network</span>
               </motion.div>
 
-              <h2 className="text-2xl sm:text-4xl font-extrabold font-heading text-slate-900 tracking-tight leading-snug">
+              <h2 className="text-2xl sm:text-4xl font-extrabold font-heading text-slate-900 tracking-tight leading-snug text-center lg:text-left">
                 Bridging Waste Generators with Authorized Recycling
               </h2>
 
-              <p className="text-slate-600 leading-relaxed text-base">
+              <p className="text-slate-600 leading-relaxed text-base text-center lg:text-left">
                 ReTrash is an innovative waste collection initiative built to make recycling accessible, organized, and transparent for households, commercial offices, and educational institutions across India.
               </p>
 
-              <p className="text-slate-600 leading-relaxed text-base">
+              <p className="text-slate-600 leading-relaxed text-base text-center lg:text-left">
                 Through the ReTrash app-based platform, waste generators can book door-step pickups for dry recyclables, scrap metal, and discarded electronics. Once collected, ReTrash ensures that recyclable waste avoids informal dumping sites and flows directly into certified green channels managed by EnviroServe.
               </p>
 
@@ -401,12 +402,13 @@ export function CollectingPartnerContent() {
             </p>
           </div>
 
+          {/* Desktop Process View (Horizontal Flow) */}
           <motion.div
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="grid grid-cols-1 md:grid-cols-5 gap-6 relative z-10"
+            className="hidden md:grid md:grid-cols-5 gap-6 relative z-10"
           >
             {processSteps.map((step, idx) => {
               const StepIcon = step.icon;
@@ -444,6 +446,56 @@ export function CollectingPartnerContent() {
               );
             })}
           </motion.div>
+
+          {/* Mobile Process View (Centered Vertical Flow with Down Arrows) */}
+          <div className="md:hidden flex flex-col items-center space-y-4 relative z-10">
+            {processSteps.map((step, idx) => {
+              const StepIcon = step.icon;
+              const isLast = idx === processSteps.length - 1;
+              return (
+                <React.Fragment key={idx}>
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.4, delay: idx * 0.08 }}
+                    className="w-full max-w-sm flex flex-col items-center text-center p-6 rounded-3xl bg-slate-900/90 border border-slate-800 shadow-xl cursor-pointer hover:border-lime-400/50 group transition-all"
+                  >
+                    {/* Step Badge & Icon Box */}
+                    <div className="relative mb-4">
+                      <div className="w-20 h-20 rounded-3xl bg-slate-950 border-2 border-lime-400/40 group-hover:border-lime-400 group-hover:bg-gradient-to-br group-hover:from-emerald-600 group-hover:to-teal-700 flex items-center justify-center text-lime-400 group-hover:text-white shadow-xl transition-all duration-300 group-hover:scale-110">
+                        <StepIcon className="w-8 h-8" />
+                      </div>
+                      <span className="absolute -top-2 -right-2 px-2.5 py-0.5 rounded-full bg-lime-500 text-slate-950 text-[10px] font-black shadow-md border border-lime-300">
+                        {step.step}
+                      </span>
+                    </div>
+
+                    <span className="text-xs font-extrabold text-lime-400 uppercase tracking-wider mb-1">
+                      Stage {step.step}
+                    </span>
+                    <h3 className="text-xl font-bold text-white group-hover:text-lime-300 transition-colors">
+                      {step.title}
+                    </h3>
+                    <p className="mt-2 text-xs sm:text-sm text-slate-300 leading-relaxed max-w-xs">
+                      {step.desc}
+                    </p>
+                  </motion.div>
+
+                  {/* Down Arrow Connector between steps */}
+                  {!isLast && (
+                    <div className="flex flex-col items-center justify-center my-1 text-lime-400">
+                      <div className="w-0.5 h-3 bg-gradient-to-b from-lime-400 to-emerald-500" />
+                      <div className="p-2 rounded-full bg-slate-900 border border-lime-400/40 text-lime-400 shadow-md">
+                        <ArrowDown className="w-4 h-4 animate-bounce" />
+                      </div>
+                      <div className="w-0.5 h-3 bg-gradient-to-b from-emerald-500 to-lime-400" />
+                    </div>
+                  )}
+                </React.Fragment>
+              );
+            })}
+          </div>
         </motion.section>
 
         {/* From Collection to Recycling Ecosystem Journey */}
@@ -534,7 +586,7 @@ export function CollectingPartnerContent() {
               Frequently Asked Questions
             </div>
             <h2 className="text-3xl font-extrabold font-heading text-slate-900 tracking-tight">
-              Collecting Partner FAQs
+              Collection Partner FAQs
             </h2>
           </motion.div>
 

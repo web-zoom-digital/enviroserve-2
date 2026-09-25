@@ -16,6 +16,7 @@ import { MapPin, PhoneCall, Mail } from "lucide-react";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { TechnologyPartners } from "@/components/technology-partners";
 import { CollectingPartnerSection } from "@/components/collecting-partner-section";
+import { NatureBanner } from "@/components/nature-banner";
 
 export default function HomePage() {
   return (
@@ -43,6 +44,11 @@ export default function HomePage() {
       {/* 4. EPR Compliance Section */}
       <ScrollReveal variant="fadeLeft" delay={0.05}>
         <EPRComplianceSection />
+      </ScrollReveal>
+
+      {/* 4.5 Nature Banner */}
+      <ScrollReveal variant="fadeUp" delay={0.05}>
+        <NatureBanner />
       </ScrollReveal>
 
       {/* 5. How We Do It Timeline */}
@@ -97,7 +103,7 @@ export default function HomePage() {
                       <MapPin className="w-5 h-5" />
                     </div>
                     <div>
-                      <div className="text-xs font-extrabold text-emerald-600 uppercase tracking-wider">REGISTERED OFFICE</div>
+                      <div className="text-xs font-extrabold text-emerald-600 uppercase tracking-wider">CORPORATE OFFICE</div>
                       <div className="text-sm font-semibold text-enviro-navy mt-0.5 leading-relaxed">
                         {companyInfo.officeAddress.full}
                       </div>
@@ -110,7 +116,7 @@ export default function HomePage() {
                       <MapPin className="w-5 h-5" />
                     </div>
                     <div>
-                      <div className="text-xs font-extrabold text-amber-500 uppercase tracking-wider">RECYCLE PLANT</div>
+                      <div className="text-xs font-extrabold text-amber-500 uppercase tracking-wider">RECYCLING PLANT</div>
                       <div className="text-sm font-semibold text-enviro-navy mt-0.5 leading-relaxed">
                         {companyInfo.factoryAddress.full}
                       </div>
@@ -124,10 +130,10 @@ export default function HomePage() {
                     <div>
                       <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">Phone Lines</div>
                       <div className="text-sm font-semibold text-enviro-navy mt-0.5">
-                        Toll Free: <a href={`tel:${companyInfo.contact.tollFree}`} className="hover:text-enviro-green">{companyInfo.contact.tollFree}</a>
+                        Primary: <a href={`tel:${companyInfo.contact.primaryPhone.replace(/\s+/g, "")}`} className="hover:text-enviro-green">{companyInfo.contact.primaryPhone}</a>
                       </div>
-                      <div className="text-xs text-slate-500">
-                        Direct: {companyInfo.contact.phone}
+                      <div className="text-sm font-semibold text-enviro-navy mt-0.5">
+                        Secondary: <a href={`tel:${companyInfo.contact.secondaryPhone.replace(/\s+/g, "")}`} className="hover:text-enviro-green">{companyInfo.contact.secondaryPhone}</a>
                       </div>
                     </div>
                   </div>

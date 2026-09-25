@@ -92,26 +92,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/services/plastic-waste-epr" className="hover:text-emerald-400 transition-colors flex items-center justify-between group">
-                  <span>Plastic Waste EPR</span>
-                  <ArrowUpRight className="w-3.5 h-3.5 text-slate-500 group-hover:text-emerald-400 transition-colors" />
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/tyre-waste-epr" className="hover:text-emerald-400 transition-colors flex items-center justify-between group">
-                  <span>Tyre Waste EPR</span>
-                  <ArrowUpRight className="w-3.5 h-3.5 text-slate-500 group-hover:text-emerald-400 transition-colors" />
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/used-oil-epr" className="hover:text-emerald-400 transition-colors flex items-center justify-between group">
-                  <span>Used Oil EPR</span>
-                  <ArrowUpRight className="w-3.5 h-3.5 text-slate-500 group-hover:text-emerald-400 transition-colors" />
-                </Link>
-              </li>
-              <li>
                 <Link href="/services/multi-category-epr" className="hover:text-emerald-400 transition-colors flex items-center justify-between group">
-                  <span>Multi-Category EPR</span>
+                  <span>Multi-Category EPR Desk</span>
                   <ArrowUpRight className="w-3.5 h-3.5 text-slate-500 group-hover:text-emerald-400 transition-colors" />
                 </Link>
               </li>
@@ -133,24 +115,32 @@ export function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                 <div>
-                  <div className="text-xs text-emerald-300 font-bold uppercase tracking-wide mb-0.5">Registered Office</div>
+                  <div className="text-xs text-emerald-300 font-bold uppercase tracking-wide mb-0.5">Corporate Office</div>
                   <span>{companyInfo.officeAddress.full}</span>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
                 <div>
-                  <div className="text-xs text-amber-300 font-bold uppercase tracking-wide mb-0.5">Recycle Plant</div>
+                  <div className="text-xs text-amber-300 font-bold uppercase tracking-wide mb-0.5">Recycling Plant</div>
                   <span>{companyInfo.factoryAddress.full}</span>
                 </div>
               </div>
-              <div className="flex items-center gap-3">
-                <PhoneCall className="w-5 h-5 text-emerald-400 shrink-0" />
-                <div>
-                  <div className="text-xs text-slate-400">Toll Free</div>
-                  <a href={`tel:${companyInfo.contact.tollFree}`} className="hover:text-emerald-400 font-semibold text-white transition-colors">
-                    {companyInfo.contact.tollFree}
-                  </a>
+              <div className="flex items-start gap-3">
+                <PhoneCall className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
+                <div className="space-y-1">
+                  <div>
+                    <div className="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Primary</div>
+                    <a href={`tel:${companyInfo.contact.primaryPhone.replace(/\s+/g, "")}`} className="hover:text-emerald-400 font-semibold text-white transition-colors text-sm block">
+                      {companyInfo.contact.primaryPhone}
+                    </a>
+                  </div>
+                  <div>
+                    <div className="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Secondary</div>
+                    <a href={`tel:${companyInfo.contact.secondaryPhone.replace(/\s+/g, "")}`} className="hover:text-emerald-400 font-semibold text-white transition-colors text-sm block">
+                      {companyInfo.contact.secondaryPhone}
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="flex items-center gap-3">

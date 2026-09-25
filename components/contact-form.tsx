@@ -170,13 +170,10 @@ export function ContactForm() {
             <option value="Li-Ion Battery Recycling">Li-Ion Battery Recycling</option>
             <option value="E-Waste EPR">E-Waste EPR Compliance</option>
             <option value="Li-Ion Battery EPR">Li-Ion Battery EPR Compliance</option>
-            <option value="Plastic Waste EPR">Plastic Waste EPR Compliance</option>
             <option value="Battery Waste EPR">Battery Waste EPR Compliance</option>
-            <option value="Tyre Waste EPR">Tyre Waste EPR Compliance</option>
-            <option value="Used Oil EPR">Used Oil EPR Compliance</option>
             <option value="Multi-Category EPR">Multi-Category EPR Advisory</option>
             <option value="Annual EPR Filing">Annual Filing & Documentation</option>
-            <option value="PRO Services">PRO Services</option>
+            <option value="Circular Economy Responsibility">Circular Economy Responsibility</option>
             <option value="Reverse Logistics">Reverse Logistics</option>
             <option value="Asset Liquidation">Corporate Asset Liquidation</option>
           </select>

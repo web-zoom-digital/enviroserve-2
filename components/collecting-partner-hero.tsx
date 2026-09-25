@@ -14,7 +14,7 @@ export function CollectingPartnerHero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/partners/retrash/retrash-collecting-partner.jpg"
-          alt="ReTrash collecting partner — doorstep waste pickup"
+          alt="ReTrash collection partner — doorstep waste pickup"
           fill
           className="object-cover object-center"
           priority

@@ -84,9 +84,9 @@ const whatWeDoServices = [
     colorStyle: "bg-blue-500/10 text-blue-600 border-blue-200 group-hover:bg-blue-600 group-hover:text-white",
   },
   {
-    title: "PRO Services",
+    title: "Circular Economy Responsibility",
     category: "Turnkey Operations",
-    description: "Producer Responsibility Organisation services running physical take-back centers, aggregator networks, and public awareness campaigns.",
+    description: "Circular Economy Responsibility services running physical take-back centers, closed-loop recovery networks, and public awareness campaigns.",
     href: "/services/pro-services",
     icon: Briefcase,
     image: "/images/services/77b38d02-7a38-4c16-b60b-cd637fd8aa56.jpeg",
@@ -218,7 +218,7 @@ const whyChooseUs = [
 const faqs = [
   {
     question: "What types of waste does EnviroServe handle?",
-    answer: "EnviroServe specializes in e-waste (computers, servers, PCBs, telecom hardware), lithium-ion batteries (EV packs, ESS units, portable cells), lead-acid batteries, plastic packaging waste (Categories I-IV), waste tyres, used oil, and industrial metal scrap.",
+    answer: "EnviroServe specializes in e-waste (computers, servers, PCBs, telecom hardware), lithium-ion batteries (EV packs, ESS units, portable cells), lead-acid batteries, and industrial metal scrap.",
   },
   {
     question: "Does EnviroServe provide e-waste recycling services?",
@@ -226,7 +226,7 @@ const faqs = [
   },
   {
     question: "Does EnviroServe support EPR requirements?",
-    answer: "Yes, EnviroServe provides turnkey Extended Producer Responsibility (EPR) advisory and credit fulfillment across E-Waste, Plastics, Batteries, Tyres, and Used Oil under Central Pollution Control Board (CPCB) portals.",
+    answer: "Yes, EnviroServe provides turnkey Extended Producer Responsibility (EPR) advisory and credit fulfillment across E-Waste and Battery Waste under Central Pollution Control Board (CPCB) portals.",
   },
   {
     question: "Does EnviroServe handle Li-ion battery recycling?",
@@ -238,7 +238,7 @@ const faqs = [
   },
   {
     question: "How can a business contact EnviroServe?",
-    answer: "You can reach our corporate advisory team by calling toll-free at 1800 309 9943 / 011-43510683, emailing info@enviroserve.in, or filling out the contact form below.",
+    answer: "You can reach our corporate advisory team by calling +91 99100 88435 / +91 85534 82769, emailing info@enviroserve.in, or filling out the contact form below.",
   },
 ];
 
@@ -908,10 +908,12 @@ export function AboutContent() {
                     </div>
                     <div>
                       <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">Office Phone</div>
-                      <a href={`tel:${companyInfo.contact.tollFree}`} className="font-bold text-enviro-navy hover:text-enviro-green transition-colors text-base block mt-0.5">
-                        Toll Free: {companyInfo.contact.tollFree}
+                      <a href={`tel:${companyInfo.contact.primaryPhone.replace(/\s+/g, "")}`} className="font-bold text-enviro-navy hover:text-enviro-green transition-colors text-base block mt-0.5">
+                        {companyInfo.contact.primaryPhone}
                       </a>
-                      <div className="text-xs text-slate-500">Landline: {companyInfo.contact.phone}</div>
+                      <a href={`tel:${companyInfo.contact.secondaryPhone.replace(/\s+/g, "")}`} className="font-semibold text-slate-600 hover:text-enviro-green transition-colors text-sm block mt-0.5">
+                        {companyInfo.contact.secondaryPhone}
+                      </a>
                     </div>
                   </div>
 

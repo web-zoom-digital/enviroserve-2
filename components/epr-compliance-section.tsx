@@ -36,16 +36,6 @@ const eprModules = [
     icon: BatteryCharging,
     colorStyle: "bg-amber-500/10 text-amber-600 border-amber-200 group-hover:bg-amber-500 group-hover:text-white",
   },
-  
-  {
-    title: "Used Oil EPR",
-    category: "Base Oil & Lubricants",
-    description: "Re-refining EPR credit procurement and portal submission for lubricant and base oil producers.",
-    href: "/services/used-oil-epr",
-    image: "/images/services/WhatsApp-Image-2025-12-16-at-15.04.31-3.jpeg",
-    icon: Droplet,
-    colorStyle: "bg-blue-500/10 text-blue-600 border-blue-200 group-hover:bg-blue-600 group-hover:text-white",
-  },
   {
     title: "Multi-Category EPR",
     category: "Unified Portfolio",

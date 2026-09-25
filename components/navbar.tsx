@@ -38,35 +38,32 @@ import { cn } from "@/lib/utils";
 const servicesList = [
   {
     category: "Recycling Solutions",
-    badge: "Eco Recovery",
+    badge: "",
     icon: Recycle,
     items: [
       { name: "E-Waste Recycling", href: "/services/e-waste-recycling", desc: "Scientific de-manufacturing & metal recovery", icon: Cpu },
       { name: "Li-Ion Battery Recycling", href: "/services/li-ion-battery-recycling", desc: "EV battery packs & critical mineral recovery", icon: BatteryCharging },
       { name: "Solar Panel Recycling", href: "/services/solar-panel-recycling", desc: "PV panel dismantling & glass/silicon recovery", icon: Sun },
-      { name: "Tyre Waste EPR & Recycling", href: "/services/tyre-waste-epr", desc: "Crumb rubber & pyrolysis recovery", icon: CircleDot },
     ],
   },
   {
     category: "CPCB EPR Compliance",
-    badge: "Portal Desk",
+    badge: "",
     icon: ShieldCheck,
     items: [
       { name: "E-Waste EPR Compliance", href: "/services/e-waste-epr", desc: "CPCB portal targets & credit generation", icon: FileCheck },
       { name: "Li-Ion Battery EPR", href: "/services/li-ion-battery-epr", desc: "BWM Rules 2022 obligation credits", icon: ShieldCheck },
-      { name: "Plastic Packaging EPR", href: "/services/plastic-waste-epr", desc: "Cat I, II, III & IV plastic credits", icon: Recycle },
       { name: "General Battery EPR", href: "/services/battery-waste-epr", desc: "Lead-acid & dry cell battery credits", icon: Battery },
-      { name: "Used Oil EPR Advisory", href: "/services/used-oil-epr", desc: "Base oil & lubricant re-refining EPR", icon: Droplets },
     ],
   },
   {
     category: "Enterprise & Advisory",
-    badge: "Pan-India",
+    badge: "",
     icon: Truck,
     items: [
       { name: "Multi-Category EPR Desk", href: "/services/multi-category-epr", desc: "Unified single-window advisory desk", icon: Layers },
       { name: "Annual EPR Audit & Filing", href: "/services/annual-filing", desc: "Error-free documentation & CPCB audits", icon: FileSpreadsheet },
-      { name: "PRO Take-Back Operations", href: "/services/pro-services", desc: "Turnkey take-back & awareness campaigns", icon: Briefcase },
+      { name: "Circular Economy Responsibility", href: "/services/pro-services", desc: "Closed-loop take-back & circular campaigns", icon: Briefcase },
       { name: "Reverse Logistics Fleet", href: "/services/reverse-logistics", desc: "Pan-India hazardous waste pickup fleet", icon: Truck },
       { name: "Corporate Asset Liquidation", href: "/services/asset-liquidation", desc: "IT asset disposal & DoD data destruction", icon: HardDrive },
     ],
@@ -213,9 +210,8 @@ export function Navbar() {
                                 {cat.category}
                               </span>
                             </div>
-                            <span className="text-[10px] font-extrabold text-emerald-800 bg-emerald-100/90 px-2.5 py-0.5 rounded-full border border-emerald-200/70 shadow-sm">
-                              {cat.badge}
-                            </span>
+                           
+                           
                           </div>
 
                           {/* Items List as Soft Interactive Cards */}
@@ -281,7 +277,7 @@ export function Navbar() {
                 pathname === "/collecting-partner" ? "text-emerald-700 font-bold" : "text-slate-700"
               )}
             >
-              <span>Collecting Partner</span>
+              <span>Collection Partner</span>
               
               {pathname === "/collecting-partner" && (
                 <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-emerald-600 rounded-full animate-in fade-in" />
@@ -505,7 +501,7 @@ export function Navbar() {
                   <Truck className="w-4 h-4" />
                 </div>
                 <div className="flex items-center justify-between flex-1">
-                  <span>Collecting Partner</span>
+                  <span>Collection Partner</span>
                  
                 </div>
               </Link>

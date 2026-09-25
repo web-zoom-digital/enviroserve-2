@@ -31,8 +31,9 @@ export const companyInfo = {
     full: "EnviroServe Technologies Pvt. Ltd, 432, 433, Jaretha, Uttar Pradesh - 243638, India",
   },
   contact: {
-    tollFree: "1800 309 9943",
-    phone: "011-43510683",
+    primaryPhone: "+91 99100 88435",
+    secondaryPhone: "+91 85534 82769",
+    phone: "+91 99100 88435",
     email: "info@enviroserve.in",
     altEmail: "alam@envireserve.in",
   },

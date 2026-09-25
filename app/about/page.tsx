@@ -59,7 +59,7 @@ export default function AboutPage() {
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: companyInfo.contact.tollFree,
+      telephone: companyInfo.contact.primaryPhone,
       contactType: "customer service",
       email: companyInfo.contact.email,
     },
@@ -93,7 +93,7 @@ export default function AboutPage() {
         name: "What types of waste does EnviroServe handle?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "EnviroServe specializes in e-waste (computers, servers, PCBs, telecom hardware), lithium-ion batteries (EV packs, ESS units, portable cells), lead-acid batteries, plastic packaging waste (Categories I-IV), waste tyres, used oil, and industrial metal scrap.",
+          text: "EnviroServe specializes in e-waste (computers, servers, PCBs, telecom hardware), lithium-ion batteries (EV packs, ESS units, portable cells), lead-acid batteries, and industrial metal scrap.",
         },
       },
       {
@@ -109,7 +109,7 @@ export default function AboutPage() {
         name: "Does EnviroServe support EPR requirements?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes, EnviroServe provides turnkey Extended Producer Responsibility (EPR) advisory and credit fulfillment across E-Waste, Plastics, Batteries, Tyres, and Used Oil under Central Pollution Control Board (CPCB) portals.",
+          text: "Yes, EnviroServe provides turnkey Extended Producer Responsibility (EPR) advisory and credit fulfillment across E-Waste and Battery Waste under Central Pollution Control Board (CPCB) portals.",
         },
       },
       {
@@ -133,7 +133,7 @@ export default function AboutPage() {
         name: "How can a business contact EnviroServe?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "You can reach our corporate advisory team by calling toll-free at 1800 309 9943 / 011-43510683, emailing info@enviroserve.in, or filling out the contact form below.",
+          text: "You can reach our corporate advisory team by calling +91 99100 88435 / +91 85534 82769, emailing info@enviroserve.in, or filling out the contact form below.",
         },
       },
     ],
